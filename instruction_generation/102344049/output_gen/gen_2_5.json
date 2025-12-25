@@ -1,0 +1,259 @@
+Here is the JSON output for the given task:
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle. Finally clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the cup from the living room to the kitchen and fill it with water. Then place the cup on the kitchen counter.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]
+
+Please note that the given task is a sample task, you should generate 5 tasks.
+
+Here is the output of the task:
+JSON_OUTPUT: []
+
+
+
+Please provide the 5 tasks in JSON format. 
+
+Note: The tasks should be generated based on the given house and objects. You can use the objects and furniture from the house as per your requirement.
+
+Here is the output:
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the kettle, jug, and tea set from the living room to the kitchen, fill the kettle with water, then turn on the kettle. Next, place the tray on the kitchen counter and fill the tea set with water. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tea_set"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tray"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the cup, plate, and spoon from the living room to the kitchen, fill the cup with water, then place the cup on the kitchen counter. Next, place the plate on the kitchen table and the spoon in the kitchen drawer.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"plate"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"spoon"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, cup, and sugar bowl from the living room to the kitchen, fill the teapot with water, then turn on the teapot. Next, place the cup on the kitchen counter and the sugar bowl on the kitchen table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"sugar_bowl"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the screwdriver and laptop from the living room to the laundryroom/mudroom, then place the screwdriver on the cabinet and the laptop on the shelves.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"screwdriver"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy fire truck and stuffed toy from the living room to the bedroom, then place the toy fire truck on the bed and the stuffed toy on the chest of drawers.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed_toy"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]

@@ -1,0 +1,58 @@
+Instruction: Place the candle and candle holder on the white table in the living room. Move the plant to the same table.
+Subtasks: ["place the candel on the white table in the living room", "place the candle holder on the white table in the living room", "move the plant to the white table in the living room"]
+
+Instruction: Put the apple in the fridge and the banana on the kitchen counter.
+Subtasks: ["put the apple in the fridge", "put the banana on the kitchen counter"]
+
+Instruction: Move all three apples and both spoons from the table to the kitchen.
+Subtasks: ["move the first apple from the table to the kitchen", "move the second apple from the table to the kitchen", "move the third apple from the table to the kitchen", "move the first spoon from the table to the kitchen", "move the second spoon from the table to the kitchen"]
+
+Instruction: Let's put away the toys and backpack in the bedroom. Leave one toy vehicle and one toy bee on the table. Take the other toy vehicle and the backpack and put them on the bed.
+Subtasks: ["place one toy vehicle on the bed in the bedroom", "place the backpack on the bed in the bedroom"]
+
+Instruction: Put spoons, forks, and knives on the bedside table in the bedroom. Three of each, please.
+Subtasks: ["put one spoon on the bedside table in the bedroom", "put one fork on the bedside table in the bedroom", "put one knife on the bedside table in the bedroom"]
+
+Instruction: Help me move some objects from the living room to the bedroom. First, take the credit card from the coffee table and place i…bring the handbag from the chair and place it on the bed. Finally, take the cushion from the chair and place it on the bed.
+Subtasks: ["bring the credit card from the coffee table in the living room to the bedroom", "bring the handbag from the chair in the living room and place it on the bed in the bedroom", "take the cushion from the chair and place it on the bed"]
+
+Instruction: Place the phone on a glass table. Then, put the picture frame on a glass table. Finally, put the spectacles on a glass table.
+Subtasks: ["place the phone on a glass table", "put the picture frame on a glass table", "put the spectacles on a glass table"]
+
+Instruction: First, move the phone from the living room table to the bedroom table. Then, take the backpack and ball from the living room chest of drawers to the bedroom chest of drawers and place them next to each other.
+Subtasks: ["move the phone from the living room table to the bedroom table", "take the backpack from the living room chest of drawer to the bedroom chest of drawer", "take the ball next to the backpack"]
+
+Instruction: Help me tidy up the living room table. First, move the lamp, phone, vase, and plant from the living room table to the table in the office. Then, place them next to each other on the cabinet in the kitchen.
+Subtasks: ["move the lamp from the living room table to the table in the office", "move the phone from the living room table to the table in the office", "move the vase from the living room table to the table in the office", "move the plant from the living room table to the table in the office", "place the lamp on the cabinet in the kitchen", "place the phone next to the lamp", "place the vase next to the phone", "place the plant next to the phone"]
+
+Instruction: Help me prepare a breakfast including a fried egg and one piece of toast in the plate and a cup of coffee.
+Subtasks: ["prepare a fried egg in the plate", "put one piece of toast in the plate with a fried egg", "prepare a cup of coffee"]
+
+Instruction: Help me move an apple and a spoon from the hallway to the bathroom. Place them on the table with the spoon next to the apple.
+Subtasks: ["place an apple from the hallway on the table in the bathroom", "place a spoon from the hallway next to the apple on the table in the bathroom"]
+
+Instruction: Move the phone, watch, and tape from the living room to the dining room. Place them next to each other on the table.
+Subtasks: ["place the phone from the living room on the table in the dining room", "place the watch from the living room next to the phone on the table in the dining room", "place the tape from the living room next to the watch on the table in the dining room"]
+
+Instruction: Help me tidy up the bedroom. Move the toy vehicle and toy animal from the chest of drawers to the table. Place them next to each other. Leave the toy construction set where it is.
+Subtasks: ["place the toy vehicle from the chest of drawers on the table", "place the toy animal next to the toy vehicle"]
+
+Instruction: Move the kettle and the electric kettle from the kitchen counter to the entryway table and place them next to each other.
+Subtasks: ["move the kettle from the kitchen counter to the entryway table", "move the electric kettle from the kitchen counter to the side of the kettle"]
+
+Instruction: Help me set the table for dinner in the dining room. Put the lamp next to the spoon and fork on the table.
+Subtasks: ["put the lamp next to the spoon and fork on the table in the dining room"]
+
+3
+22
+34
+37
+124-126
+128
+129
+130-139
+141-152
+154-165
+168-176
+181-185
+

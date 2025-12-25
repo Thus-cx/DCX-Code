@@ -1,0 +1,47 @@
+{
+    "instruction": "Move the toy_food and toy_construction_set from the living room to the playroom, and clean the living room floor.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_food"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_construction_set"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "toy_food",
+                "toy_construction_set"
+            ],
+            "exclude_existing_objects": true,
+            "number": "3",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                4
+            ]
+        }
+    ]
+}

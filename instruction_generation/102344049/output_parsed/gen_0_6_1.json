@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the battery_charger, laptop, and phone_stand from the living room to the bedroom and charge the laptop. Then, put the battery_charger and phone_stand on the bed.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "battery_charger"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "laptop"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "phone_stand"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "battery_charger",
+                "laptop",
+                "phone_stand"
+            ],
+            "exclude_existing_objects": true,
+            "number": "1",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                6
+            ]
+        }
+    ]
+}

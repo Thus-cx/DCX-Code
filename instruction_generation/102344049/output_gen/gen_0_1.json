@@ -1,0 +1,252 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the toys, stuffed toy, and toy_construction_set from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, cup, and book from the living room to the kitchen and fill the teapot with water, then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, phone_stand, and clock from the living room to the bedroom and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"phone_stand"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, helmet, and hat from the living room to the garage and fill the helmet with water, then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"helmet"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_vehicle, toy_fruits, and toy_cactus from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  JSON_OUTPUT: [
+{"instruction": "Move the toys, stuffed toy, and toy_construction_set from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["stuffed toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_construction_set"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["lamp"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the teapot, cup, and book from the living room to the kitchen and fill the teapot with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["teapot"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["cup"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["book"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the laptop, phone_stand, and clock from the living room to the bedroom and clean the living room table.","initial_state": [{"number": 1,"object_classes":["laptop"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["phone_stand"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["clock"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the baseballbat, helmet, and hat from the living room to the garage and fill the helmet with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["baseballbat"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["helmet"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["hat"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the toy_vehicle, toy_fruits, and toy_cactus from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy_vehicle"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_cactus"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["lamp"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]}]}] 
+
+You are a system that generates tasks for robots to perform with humans. Do not be verbose. Answer the question with no added qualifications or caveats. Directly provide the answer in JSON.
+
+JSON_OUTPUT: [
+{"instruction": "Move the toys, stuffed toy, and toy_construction_set from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["stuffed toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_construction_set"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["lamp"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the teapot, cup, and book from the living room to the kitchen and fill the teapot with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["teapot"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["cup"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["book"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the laptop, phone_stand, and clock from the living room to the bedroom and clean the living room table.","initial_state": [{"number": 1,"object_classes":["laptop"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["phone_stand"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["clock"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the baseballbat, helmet, and hat from the living room to the garage and fill the helmet with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["baseballbat"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["helmet"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["hat"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the toy_vehicle, toy_fruits, and toy_cactus from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy_vehicle"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_cactus"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["lamp"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]}]}]  JSON_OUTPUT: [
+{"instruction": "Move the toys, stuffed toy, and toy_construction_set from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["stuffed toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_construction_set"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["lamp"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the teapot, cup, and book from the living room to the kitchen and fill the teapot with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["teapot"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["cup"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["book"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the laptop, phone_stand, and clock from the living room to the bedroom and clean the living room table.","initial_state": [{"number": 1,"object_classes":["laptop"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["phone_stand"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["clock"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the baseballbat, helmet, and hat from the living room to the garage and fill the helmet with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["baseballbat"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["helmet"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["hat"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the toy_vehicle, toy_fruits, and toy_cactus from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy_vehicle"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_cactus"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["lamp"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]}]}]  JSON_OUTPUT: [
+{"instruction": "Move the toys, stuffed toy, and toy_construction_set from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["stuffed toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_construction_set"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["lamp"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the teapot, cup, and book from the living room to the kitchen and fill the teapot with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["teapot"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["cup"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["book"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the laptop, phone_stand, and clock from the living room to the bedroom and clean the living room table.","initial_state": [{"number": 1,"object_classes":["laptop"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["phone_stand"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["clock"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the baseballbat, helmet, and hat from the living room to the garage and fill the helmet with water, then clean the living room table.","initial_state": [{"number": 1,"object_classes":["baseballbat"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["helmet"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["hat"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]}]}, {"instruction": "Move the toy_vehicle, toy_fruits, and toy_cactus from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy_vehicle"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_fruits"],"furniture_names":["table_0"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_cactus"],  JSON_OUTPUT: [
+{"instruction": "Move the toys, stuffed toy, and toy_construction_set from the living room to the playroom, then fill the toy_fruits with water, turn on the lamp, and clean the living room table.","initial_state": [{"number": 1,"object_classes":["toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["stuffed toy"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]},{"number": 1,"object_classes":["toy_construction_set"],"furniture_names":["table_1"],"allowed_regions":["living_room_0"]

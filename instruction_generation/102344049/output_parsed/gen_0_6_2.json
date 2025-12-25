@@ -1,0 +1,47 @@
+{
+    "instruction": "Move the screwdriver and baseballbat from the living room to the garage and put the screwdriver in the cabinet and the baseballbat on the floor.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "screwdriver"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "screwdriver",
+                "baseballbat"
+            ],
+            "exclude_existing_objects": true,
+            "number": "2",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                6
+            ]
+        }
+    ]
+}

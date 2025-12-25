@@ -1,0 +1,958 @@
+JSON_OUTPUT:
+[
+{
+"instruction": "Move the book, folder, and laptop from the living room to the bedroom and arrange them on the bed. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the stuffed toy, hat, and backpack from the bedroom to the living room and put them on the couch. Then fill the jug with water and turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"chest_of_drawers_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"backpack"
+],
+"furniture_names": [
+"bed_1"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the bread, apple, and lunch_box from the kitchen to the living room and put them on the table. Then fill the kettle with water and turn it on.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"bread"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"apple"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lunch_box"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fruits, toy_swing, and toy_construction_set from the living room to the closet and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_swing"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  # end of JSON_OUTPUT
+JSON_OUTPUT: [
+{
+"instruction": "Move the book, folder, and laptop from the living room to the bedroom and arrange them on the bed. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the stuffed toy, hat, and backpack from the bedroom to the living room and put them on the couch. Then fill the jug with water and turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"chest_of_drawers_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"backpack"
+],
+"furniture_names": [
+"bed_1"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the bread, apple, and lunch_box from the kitchen to the living room and put them on the table. Then fill the kettle with water and turn it on.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"bread"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"apple"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lunch_box"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fruits, toy_swing, and toy_construction_set from the living room to the closet and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_swing"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  # end of JSON_OUTPUT
+JSON_OUTPUT: [
+{
+"instruction": "Move the book, folder, and laptop from the living room to the bedroom and arrange them on the bed. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the stuffed toy, hat, and backpack from the bedroom to the living room and put them on the couch. Then fill the jug with water and turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"chest_of_drawers_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"backpack"
+],
+"furniture_names": [
+"bed_1"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the bread, apple, and lunch_box from the kitchen to the living room and put them on the table. Then fill the kettle with water and turn it on.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"bread"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"apple"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lunch_box"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fruits, toy_swing, and toy_construction_set from the living room to the closet and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_swing"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  # end of JSON_OUTPUT
+JSON_OUTPUT: [
+{
+"instruction": "Move the book, folder, and laptop from the living room to the bedroom and arrange them on the bed. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the stuffed toy, hat, and backpack from the bedroom to the living room and put them on the couch. Then fill the jug with water and turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"chest_of_drawers_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"backpack"
+],
+"furniture_names": [
+"bed_1"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the bread, apple, and lunch_box from the kitchen to the living room and put them on the table. Then fill the kettle with water and turn it on.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"bread"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"apple"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lunch_box"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fruits, toy_swing, and toy_construction_set from the living room to the closet and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_swing"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  # end of JSON_OUTPUT
+JSON_OUTPUT: [
+{
+"instruction": "Move the book, folder, and laptop from the living room to the bedroom and arrange them on the bed. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the stuffed toy, hat, and backpack from the bedroom to the living room and put them on the couch. Then fill the jug with water and turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"chest_of_drawers_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"backpack"
+],
+"furniture_names": [
+"bed_1"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put them on the shelves. Then clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the bread, apple, and lunch_box from the kitchen to the living room and put them on the table. Then fill the kettle with water and turn it on.",
+"initial_state": [
+{
+"number":

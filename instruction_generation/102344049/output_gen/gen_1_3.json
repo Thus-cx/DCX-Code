@@ -1,0 +1,291 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_food, toy_animal, and stuffed_toy from the living room to the kitchen and arrange them on the counter. Then, clean the toy_food and stuffed_toy. Finally, clean the counter.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_food"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed_toy"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_food"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed_toy"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_vehicle and toy_fire_truck from the living room to the garage and park them on the floor. Then, clean the toy_vehicle and toy_fire_truck. Finally, clean the floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"floor_0"
+],
+"allowed_regions": [
+"garage_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"floor_0"
+],
+"allowed_regions": [
+"garage_0"
+]
+}
+]
+},
+{
+"instruction": "Move the book and file_sorter from the bedroom to the study and place them on the shelves. Then, clean the book and file_sorter. Finally, clean the shelves.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"chest_of_drawers_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"chest_of_drawers_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"shelves_0"
+],
+"allowed_regions": [
+"study_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"shelves_0"
+],
+"allowed_regions": [
+"study_0"
+]
+}
+]
+},
+{
+"instruction": "Move the tea_pot and mug from the living room to the kitchen and fill the tea_pot with water. Then, clean the tea_pot and mug. Finally, clean the counter.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"tea_pot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"mug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tea_pot"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"mug"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat and tennis_racquet from the living room to the garage and hang them on the wall. Then, clean the baseballbat and tennis_racquet. Finally, clean the wall.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"wall_0"
+],
+"allowed_regions": [
+"garage_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"wall_0"
+],
+"allowed_regions": [
+"garage_0"
+]
+}
+]
+}
+]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]  ]

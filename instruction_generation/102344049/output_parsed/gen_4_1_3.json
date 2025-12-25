@@ -1,0 +1,86 @@
+{
+    "instruction": "Move the baseball bat and the tennis racquet from the living room to the bedroom and put them on the bed. Then, fill the jug with water and turn it on.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "tennis_racquet"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "bed_0"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "tennis_racquet"
+            ],
+            "furniture_names": [
+                "bed_0"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "baseballbat",
+                "tennis_racquet",
+                "baseballbat",
+                "tennis_racquet",
+                "jug"
+            ],
+            "exclude_existing_objects": true,
+            "number": "3",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                4,
+                1
+            ]
+        }
+    ]
+}

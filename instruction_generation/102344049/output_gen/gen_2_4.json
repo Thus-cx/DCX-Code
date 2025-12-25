@@ -1,0 +1,321 @@
+```json
+JSON_OUTPUT: [
+    {
+        "instruction": "Move the jug and toy fruits from the dining table to the kitchen and wash them. Fill the kettle with water, then turn on the kettle. Place 2 glasses on the coffee table.",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                "kettle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "glasses"
+            ],
+            "furniture_names": [
+                "coffee_table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+    },
+    {
+        "instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle to the garage, and hang the hat on the hook. Place the shoe on the shoe rack.",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "tennis_racquet"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "hat"
+                ],
+                "furniture_names": [
+                    "hook_0"
+                ],
+                "allowed_regions": [
+                    "garage_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "shoe"
+                ],
+                "furniture_names": [
+                    "shoe_rack_0"
+                ],
+                "allowed_regions": [
+                    "garage_0"
+                ]
+            }
+    }
+    },
+    {
+        "instruction": "Move the stuffed toy, doll, and toy_animal to the bedroom, and place them on the bed. Turn on the lamp.",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "doll"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_animal"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "bed"
+            ],
+            "furniture_names": [],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    }
+    },
+    {
+        "instruction": "Move the casserole, plate, and fork to the dining table, and clean the plate. Fill the cup with water, then turn on the coffee maker.",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "casserole"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "plate"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "fork"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "cup"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                "coffee_maker"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    }
+    },
+    {
+        "instruction": "Move the basket, apple, and book to the bedroom, and place them on the bed. Turn on the lamp.",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "basket"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "apple"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "bed"
+            ],
+            "furniture_names": [],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    }
+]
+]
+```json
+```
+This task generator is designed to take a house description and generate tasks for robots to perform with humans. The tasks are generated based on the objects and furniture in the house, and are designed to be multi-step and consisting of more than one object and action.
+
+The task generator takes into account the initial and final locations of objects, as well as the actions that need to be performed on them. It also ensures that the tasks are feasible and make sense in the context of the house.
+
+In this case, the task generator was given a house description with various rooms, furniture, and objects. It generated 5 tasks that involve moving objects to different locations, performing actions on them, and interacting with other objects and furniture.
+
+The tasks are designed to be challenging and engaging for the robots, while also being safe and realistic for the humans. They require the robots to use their problem-solving skills and adapt to new situations, while also providing a fun and interactive experience for the humans.

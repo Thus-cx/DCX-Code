@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the teapot, cup, and spoon from the living room to the kitchen, fill the teapot with water, wash the cup, and place the spoon on the counter.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "teapot"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "cup"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "spoon"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "teapot",
+                "cup",
+                "spoon"
+            ],
+            "exclude_existing_objects": true,
+            "number": "2",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                3,
+                4
+            ]
+        }
+    ]
+}

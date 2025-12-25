@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage, and put them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "tennis_racquet"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_vehicle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "baseballbat",
+                "tennis_racquet",
+                "toy_vehicle"
+            ],
+            "exclude_existing_objects": true,
+            "number": "3",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                4
+            ]
+        }
+    ]
+}

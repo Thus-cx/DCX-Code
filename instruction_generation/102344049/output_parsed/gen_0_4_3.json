@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the stuffed_toy, doll, and toy_animal from the living room to the bedroom, and put them on the bed.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed_toy"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "stuffed_toy",
+                "doll",
+                "toy_animal"
+            ],
+            "exclude_existing_objects": true,
+            "number": "1",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                4
+            ]
+        }
+    ]
+}

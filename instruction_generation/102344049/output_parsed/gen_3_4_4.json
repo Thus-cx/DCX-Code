@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the toy_vehicle, toy_fire_truck, and toy_bee from the living room to the closet, and place them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_vehicle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fire_truck"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_bee"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "toy_vehicle",
+                "toy_fire_truck",
+                "toy_bee"
+            ],
+            "exclude_existing_objects": true,
+            "number": "5",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                3,
+                4
+            ]
+        }
+    ]
+}

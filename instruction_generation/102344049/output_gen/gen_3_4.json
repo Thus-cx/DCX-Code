@@ -1,0 +1,313 @@
+```
+JSON_OUTPUT: [
+{
+    "instruction": "Move the jug, toy fruits, and stuffed toy from the living room to the kitchen, fill the jug with water, wash the toy fruits, and clean the living room table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed_toy"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the teapot, cup, and spoon from the living room to the kitchen, fill the teapot with water, wash the cup, and place the spoon on the counter.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "teapot"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "cup"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "spoon"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the lamp, clock, and book from the living room to the bedroom, turn on the lamp, and place the book on the bed.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "clock"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the baseballbat, helmet, and hat from the living room to the garage, and place them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "helmet"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "hat"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the toy_vehicle, toy_fire_truck, and toy_bee from the living room to the closet, and place them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_vehicle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fire_truck"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_bee"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+} ] 
+```
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task is an object with an instruction field and an initial_state field. The initial_state field is a list of objects, each representing an object with its class, furniture name, and allowed region. 
+
+Please also note that the tasks are designed to be multi-step, consisting of more than one object and action. The tasks also include actions such as turn on/off, fill, and clean. The tasks are designed to be feasible and practical in a house environment. 
+
+Please note that the task generation is based on the given house description, rooms, and furniture. The tasks are generated randomly and may not always be feasible or practical in real life. The goal is to generate tasks that are plausible and can be performed by a robot in a house environment. 
+
+Please note that the JSON output is in the format of a list of tasks, where each task

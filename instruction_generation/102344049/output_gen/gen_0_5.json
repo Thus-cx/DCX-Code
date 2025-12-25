@@ -1,0 +1,219 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill the kettle with water and turn it on. Then place the cups on the counter next to the kettle and clean the dining table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and place them on the floor. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fruits, toy_animal, and toy_bee from the living room to the kitchen and place them on the counter. Then fill the kettle with water and turn it on.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the casserole, plate, and fork from the living room to the kitchen and place them on the counter. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"casserole"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"plate"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"fork"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the stuffed toy, toy_fire_truck, and toy_construction_set from the living room to the garage and place them on the shelf. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  JSON_OUTPUT: [ { "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill the kettle with water and turn it on. Then place the cups on the counter next to the kettle and clean the dining table.", "initial_state": [ { "number": 1, "object_classes": [ "jug" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "kettle" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "teapot" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "cup" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and place them on the floor. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "baseballbat" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "tennis_racquet" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_vehicle" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the toy_fruits, toy_animal, and toy_bee from the living room to the kitchen and place them on the counter. Then fill the kettle with water and turn it on.", "initial_state": [ { "number": 1, "object_classes": [ "toy_fruits" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_animal" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_bee" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the casserole, plate, and fork from the living room to the kitchen and place them on the counter. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "casserole" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "plate" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "fork" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the stuffed toy, toy_fire_truck, and toy_construction_set from the living room to the garage and place them on the shelf. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "stuffed toy" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_fire_truck" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_construction_set" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] } ]  JSON_OUTPUT: [ { "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill the kettle with water and turn it on. Then place the cups on the counter next to the kettle and clean the dining table.", "initial_state": [ { "number": 1, "object_classes": [ "jug" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "kettle" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "teapot" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "cup" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and place them on the floor. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "baseballbat" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "tennis_racquet" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_vehicle" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the toy_fruits, toy_animal, and toy_bee from the living room to the kitchen and place them on the counter. Then fill the kettle with water and turn it on.", "initial_state": [ { "number": 1, "object_classes": [ "toy_fruits" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_animal" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_bee" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the casserole, plate, and fork from the living room to the kitchen and place them on the counter. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "casserole" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "plate" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "fork" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the stuffed toy, toy_fire_truck, and toy_construction_set from the living room to the garage and place them on the shelf. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "stuffed toy" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_fire_truck" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_construction_set" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] } ]  JSON_OUTPUT: [ { "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill the kettle with water and turn it on. Then place the cups on the counter next to the kettle and clean the dining table.", "initial_state": [ { "number": 1, "object_classes": [ "jug" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "kettle" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "teapot" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "cup" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and place them on the floor. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "baseballbat" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "tennis_racquet" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_vehicle" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the toy_fruits, toy_animal, and toy_bee from the living room to the kitchen and place them on the counter. Then fill the kettle with water and turn it on.", "initial_state": [ { "number": 1, "object_classes": [ "toy_fruits" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_animal" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_bee" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the casserole, plate, and fork from the living room to the kitchen and place them on the counter. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "casserole" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "plate" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "fork" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] }, { "instruction": "Move the stuffed toy, toy_fire_truck, and toy_construction_set from the living room to the garage and place them on the shelf. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.", "initial_state": [ { "number": 1, "object_classes": [ "stuffed toy" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_fire_truck" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] }, { "number": 1, "object_classes": [ "toy_construction_set" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "living_room_0" ] } ] } ]  JSON_OUTPUT: [ { "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill the kettle with water and turn it on. Then place the cups on the counter next to the kettle and clean the dining table.", "initial_state": [ { "number": 1, "object_classes": [ "jug" ], "furniture_names": [ "table_1" ], "allowed_regions": [ "

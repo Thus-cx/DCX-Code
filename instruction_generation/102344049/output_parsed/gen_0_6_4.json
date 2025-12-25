@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the cake_pan, casserole, and plate from the living room to the kitchen and put the cake_pan on the counter and the casserole and plate in the cabinet.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "cake_pan"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "casserole"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plate"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "cake_pan",
+                "casserole",
+                "plate"
+            ],
+            "exclude_existing_objects": true,
+            "number": "4",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                6
+            ]
+        }
+    ]
+}

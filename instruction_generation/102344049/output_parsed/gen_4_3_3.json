@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the screwdriver, toy_bee, and toy_pineapple from the living room to the garage and put the screwdriver on the shelves_1 and the toy_bee on the fridge_0. Then, fill the bottle with water and put it on the shelf_2. Finally, clean the living room floor.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "screwdriver"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_pineapple"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "screwdriver",
+                "toy_bee",
+                "toy_pineapple"
+            ],
+            "exclude_existing_objects": true,
+            "number": "3",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                4,
+                3
+            ]
+        }
+    ]
+}

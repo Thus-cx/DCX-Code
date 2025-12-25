@@ -1,0 +1,794 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the jug, toy fruits, and toy_cactus from the living_room_0 to the kitchen_0 and wash them. Place 2 glasses on the coffee table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"glasses"
+],
+"furniture_names": [
+"coffee_table_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the kettle, toy_fire_truck, and toy_animal from the living_room_0 to the laundryroom/mudroom_0 and clean the kettle. Turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, toy_vehicle, and stuffed toy from the living_room_0 to the bedroom_0 and fill the teapot with water. Place the stuffed toy on the bed.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the cup, toy_fruits, and toy_cactus from the living_room_0 to the dining table and fill the cup with water. Place 2 glasses on the coffee table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"glasses"
+],
+"furniture_names": [
+"coffee_table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the jug, toy_fire_truck, and toy_animal from the living_room_0 to the bathroom_0 and clean the jug. Fill the bathtub with water.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"bathtub"
+],
+"furniture_names": [
+"bathroom_0"
+],
+"allowed_regions": [
+"bathroom_0"
+]
+}
+]
+}
+] JSON_OUTPUT: [] } } }
+JSON_OUTPUT: [
+{
+"instruction": "Move the jug, toy fruits, and toy_cactus from the living_room_0 to the kitchen_0 and wash them. Place 2 glasses on the coffee table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"glasses"
+],
+"furniture_names": [
+"coffee_table_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the kettle, toy_fire_truck, and toy_animal from the living_room_0 to the laundryroom/mudroom_0 and clean the kettle. Turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, toy_vehicle, and stuffed toy from the living_room_0 to the bedroom_0 and fill the teapot with water. Place the stuffed toy on the bed.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the cup, toy_fruits, and toy_cactus from the living_room_0 to the dining table and fill the cup with water. Place 2 glasses on the coffee table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"glasses"
+],
+"furniture_names": [
+"coffee_table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the jug, toy_fire_truck, and toy_animal from the living_room_0 to the bathroom_0 and clean the jug. Fill the bathtub with water.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"bathtub"
+],
+"furniture_names": [
+"bathroom_0"
+],
+"allowed_regions": [
+"bathroom_0"
+]
+}
+]
+}
+] JSON_OUTPUT: [[ {
+"instruction": "Move the jug, toy fruits, and toy_cactus from the living_room_0 to the kitchen_0 and wash them. Place 2 glasses on the coffee table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"glasses"
+],
+"furniture_names": [
+"coffee_table_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the kettle, toy_fire_truck, and toy_animal from the living_room_0 to the laundryroom/mudroom_0 and clean the kettle. Turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, toy_vehicle, and stuffed toy from the living_room_0 to the bedroom_0 and fill the teapot with water. Place the stuffed toy on the bed.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the cup, toy_fruits, and toy_cactus from the living_room_0 to the dining table and fill the cup with water. Place 2 glasses on the coffee table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"glasses"
+],
+"furniture_names": [
+"coffee_table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the jug, toy_fire_truck, and toy_animal from the living_room_0 to the bathroom_0 and clean the jug. Fill the bathtub with water.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{... } } ] JSON_OUTPUT: [[ {
+"instruction\": \"Move the jug, toy fruits, and toy_cactus from the living_room_0 to the kitchen_0 and wash them. Place 2 glasses on the coffee table.\",
+"initial_state\": [
+{... } } ] } ] JSON_OUTPUT: [ {
+"instruction\": \"Move the jug, toy fruits, and toy_cactus from the living_room_0 to the kitchen_0 and wash them. Place 2 glasses on the coffee table.\",
+"initial_state\": [
+{... } } ] } ] JSON_OUTPUT: [ {... } } ] } ] JSON_OUTPUT: [ {
+"instruction\": \"Move the jug, toy fruits, and toy_cactus from the living_room_0 to the kitchen_0 and wash them. Place 2 glasses on the coffee table.\",
+"initial_state\": [
+{... } } ] } ] JSON_OUTPUT: [ {
+"instruction\": \"Move the kettle, toy_fire_truck, and toy_animal from the living_room_0 to the laundryroom/mudroom_0 and clean the kettle. Turn on the lamp.\",
+"initial_state\": [
+{... } } ] } ] JSON_OUTPUT: [ {
+"instruction\": \"Move the teapot, toy_vehicle, and stuffed toy from the living_room_0 to the bedroom_0 and fill the teapot with water. Place the stuffed toy on the bed.\",
+"initial_state\": [
+{... } } ] } ] JSON_OUTPUT: [ {
+"instruction\": \"Move the cup, toy_fruits, and toy_cactus from the living_room_0 to the dining table and fill the cup with water. Place 2 glasses on the coffee table.\",
+"initial_state\": [
+{... } } ] } ] JSON_OUTPUT: [ {
+"instruction\": \"Move the jug, toy_fire_truck, and toy_animal from the living_room_0 to the bathroom_0 and clean the jug. Fill the bathtub with water.\",
+"initial_state\": [
+{... } } ] } ] ] JSON_OUTPUT: [ {... } } ] JSON_OUTPUT: [ {... } } ] JSON_OUTPUT: [ {... } } ] JSON_OUTPUT: [ {... } } ] JSON_OUTPUT: [ {... } } ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... } } ] ] ] JSON_OUTPUT: [ {... }

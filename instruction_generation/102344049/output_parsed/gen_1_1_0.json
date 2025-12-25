@@ -1,0 +1,99 @@
+{
+    "instruction": "Move the toy_fire_truck, toy_fruits, toy_swing, and toy_animal from the living room to the bedroom and arrange them on the bed. Then, fill the jug with water and turn on the lamp in the living room.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fire_truck"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fruits"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_swing"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_3"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "toy_fire_truck",
+                "toy_fruits",
+                "toy_swing",
+                "toy_animal",
+                "jug",
+                "lamp"
+            ],
+            "exclude_existing_objects": true,
+            "number": "5",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                1,
+                1
+            ]
+        }
+    ]
+}

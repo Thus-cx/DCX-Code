@@ -1,0 +1,37 @@
+llm:
+  llm:
+    _target_: habitat_llm.llm.Llama
+    _partial_: true
+  host: ''
+  port: 4449
+  name: llama
+  inference_mode: hf
+  generation_params:
+    engine: /root/autodl-tmp/LLM-Research/Meta-Llama-3-8B-Instruct
+    prompt: ''
+    max_tokens: 4096
+    temperature: 0.6
+    'n': 1
+    best_of: 1
+    stop: \n
+    batch_response: false
+    do_sample: true
+    repetition_penalty: 1.0
+    top_k: 50
+    top_p: 1
+prompt_file_task: dataset_generation/benchmark_generation/prompts_benchmark/instruction_prompts/templated_prompt_object_states.txt
+prompt_file_init: ''
+template_file: dataset_generation/benchmark_generation/prompts_benchmark/instruction_prompts/30_train_object_states.json
+repeat_run_id: 0
+add_clutter: true
+output_length: 4000
+generations_per_call: 5
+calls_per_scene: 5
+scene_ids:
+- '102344049'
+- '102817140'
+- '106366386_174226770'
+- '106366410_174226806'
+- '108736824_177263559'
+scene_dataset: data/hssd-hab/hssd-hab-partnr.scene_dataset_config.json
+output_path: instruction_generation

@@ -1,0 +1,303 @@
+JSON_OUTPUT: [
+{
+    "instruction": "Move the toy_food, toy_fruits, and toy_animal from the living room to the kitchen. Then fill the jug with water and turn on the lamp. Finally clean the living room table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_food"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the laptop, mouse_pad, and c-clamp from the living room to the bedroom. Then place the file_sorter next to the laptop. Finally dust the laptop.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "laptop"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "mouse_pad"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "c-clamp"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "file_sorter"
+            ],
+            "furniture_names": [
+                "chest_of_drawers_0"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the screwdriver, hammer, and toy_vehicle from the living room to the garage. Then fill the can with gasoline and turn on the lamp. Finally clean the garage shelf.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "screwdriver"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "hammer"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_vehicle"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "can"
+            ],
+            "furniture_names": [
+                "shelf_0"
+            ],
+            "allowed_regions": [
+                "garage_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "shelf_0"
+            ],
+            "allowed_regions": [
+                "garage_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the stuffed toy, book, and basket from the living room to the bedroom. Then place the dumbbell next to the stuffed toy. Finally dust the book.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed toy"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "basket"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "dumbbell"
+            ],
+            "furniture_names": [
+                "chest_of_drawers_0"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the phone_stand, clock, and hand_towel from the living room to the bathroom. Then fill the sponge with soap and turn on the lamp. Finally clean the bathroom sink.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "phone_stand"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "clock"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "hand_towel"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "sponge"
+            ],
+            "furniture_names": [
+                "soap_dish"
+            ],
+            "allowed_regions": [
+                "bathroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "soap_dish"
+            ],
+            "allowed_regions": [
+                "bathroom_0"
+            ]
+        }
+    ]
+}
+]  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]]>  ]

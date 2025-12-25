@@ -1,0 +1,331 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_fire_truck, toy_fruits, toy_swing, and toy_animal from the living room to the bedroom and arrange them on the bed. Then, fill the jug with water and turn on the lamp in the living room.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_swing"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and arrange them on the shelves. Then, fill the kettle with water and turn on the kettle in the kitchen.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the stuffed_toy, doll, and toy_bee from the living room to the bedroom and arrange them on the bed. Then, fill the milk_frother_cup with water and turn off the lamp in the living room.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed_toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"doll"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"milk_frother_cup"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the folder, book, and casserole from the living room to the kitchen and arrange them on the counter. Then, fill the jug with water and turn on the kettle in the kitchen.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"casserole"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_cactus, toy_animal, and stuffed toy from the living room to the bedroom and arrange them on the bed. Then, fill the pan with water and turn off the kettle in the kitchen.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"pan"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+}
+]  # JSON_OUTPUT
+}  # END
+```
+
+The output should be a JSON list of tasks. Each task should have an instruction and an initial state. The initial state should be a list of objects with their respective furniture names and allowed regions. The objects should be moved from the living room to other rooms (such as the bedroom, kitchen, etc.) and arranged on specific furniture. The tasks should include actions such as filling and turning on/off. The tasks should be multi-step, consisting of more than one object and action. The tasks should be generated based on the given house and objects.

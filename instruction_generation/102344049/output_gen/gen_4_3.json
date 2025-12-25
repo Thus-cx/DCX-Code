@@ -1,0 +1,818 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, book, and toy_fruits from the living room to the bedroom and put the book on the bed and the stuffed toy on the chest_of_drawers_0. Then, fill the glass with water and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put the baseballbat on the fridge_0 and the tennis_racquet on the shelves_1. Then, fill the helmet with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, folder, and file_sorter from the living room to the bedroom and put the laptop on the bed and the folder on the chest_of_drawers_0. Then, fill the pen with ink and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the screwdriver, toy_bee, and toy_pineapple from the living room to the garage and put the screwdriver on the shelves_1 and the toy_bee on the fridge_0. Then, fill the bottle with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"screwdriver"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_pineapple"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the clock, hat, and toy_animal from the living room to the bedroom and put the clock on the bed and the hat on the chest_of_drawers_0. Then, fill the sponge with soap and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, book, and toy_fruits from the living room to the bedroom and put the book on the bed and the stuffed toy on the chest_of_drawers_0. Then, fill the glass with water and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put the baseballbat on the fridge_0 and the tennis_racquet on the shelves_1. Then, fill the helmet with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, folder, and file_sorter from the living room to the bedroom and put the laptop on the bed and the folder on the chest_of_drawers_0. Then, fill the pen with ink and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the screwdriver, toy_bee, and toy_pineapple from the living room to the garage and put the screwdriver on the shelves_1 and the toy_bee on the fridge_0. Then, fill the bottle with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"screwdriver"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_pineapple"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the clock, hat, and toy_animal from the living room to the bedroom and put the clock on the bed and the hat on the chest_of_drawers_0. Then, fill the sponge with soap and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, book, and toy_fruits from the living room to the bedroom and put the book on the bed and the stuffed toy on the chest_of_drawers_0. Then, fill the glass with water and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put the baseballbat on the fridge_0 and the tennis_racquet on the shelves_1. Then, fill the helmet with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, folder, and file_sorter from the living room to the bedroom and put the laptop on the bed and the folder on the chest_of_drawers_0. Then, fill the pen with ink and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the screwdriver, toy_bee, and toy_pineapple from the living room to the garage and put the screwdriver on the shelves_1 and the toy_bee on the fridge_0. Then, fill the bottle with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"screwdriver"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_pineapple"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the clock, hat, and toy_animal from the living room to the bedroom and put the clock on the bed and the hat on the chest_of_drawers_0. Then, fill the sponge with soap and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, book, and toy_fruits from the living room to the bedroom and put the book on the bed and the stuffed toy on the chest_of_drawers_0. Then, fill the glass with water and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage and put the baseballbat on the fridge_0 and the tennis_racquet on the shelves_1. Then, fill the helmet with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tennis_racquet"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, folder, and file_sorter from the living room to the bedroom and put the laptop on the bed and the folder on the chest_of_drawers_0. Then, fill the pen with ink and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the screwdriver, toy_bee, and toy_pineapple from the living room to the garage and put the screwdriver on the shelves_1 and the toy_bee on the fridge_0. Then, fill the bottle with water and put it on the shelf_2. Finally, clean the living room floor.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"screwdriver"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_pineapple"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, book, and toy_fruits from the living room to the bedroom and put the book on the bed and the stuffed toy on the chest_of_drawers_0. Then, fill the glass with water and put it on the table_1. Finally, clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"book"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"

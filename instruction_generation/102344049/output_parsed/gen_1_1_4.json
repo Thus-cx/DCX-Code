@@ -1,0 +1,86 @@
+{
+    "instruction": "Move the toy_cactus, toy_animal, and stuffed toy from the living room to the bedroom and arrange them on the bed. Then, fill the pan with water and turn off the kettle in the kitchen.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_cactus"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed_toy"
+            ],
+            "furniture_names": [
+                "table_3"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "pan"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "kitchen_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "kettle"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "kitchen_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "toy_cactus",
+                "toy_animal",
+                "stuffed_toy",
+                "pan",
+                "kettle"
+            ],
+            "exclude_existing_objects": true,
+            "number": "5",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                1,
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+Here is the input:
+
+JSON_INPUT: {}
+
+JSON_OUTPUT: [
+{
+    "instruction": "Move the jug, teapot, and cup from the dining table to the kitchen and fill all with water. Turn on the lamp, and clean the dining table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "teapot"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "cup"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the toy_food and toy_construction_set from the living room to the playroom, and clean the living room floor.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_food"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_construction_set"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the baseballbat, tennis_racquet, and toy_vehicle from the living room to the garage, and put them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "tennis_racquet"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_vehicle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the stuffed_toy, doll, and toy_animal from the living room to the bedroom, and put them on the bed.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed_toy"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the book, folder, and pen from the living room to the office, and put them on the desk.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "folder"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "pen"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+}
+]  # JSON_OUTPUT
+
+
+This system will generate tasks based on the provided house description and objects. It will generate 5 tasks that involve moving objects from one room to another, cleaning, and performing actions such as filling and turning on/off. The system will ensure that the initial and final locations of objects are different and that tasks are multi-step. The output will be a JSON list of tasks.

@@ -1,0 +1,801 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_fire_truck and toy_animal from the coffee table to the living room floor and clean the coffee table. Arrange the stuffed toy on the couch.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"couch_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"coffee table"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, phone_stand, and folder from the desk to the living room table, fill the water bottle with water, then turn on the lamp. Finally clean the desk.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"phone_stand"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"water bottle"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"desk"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, toy_bee, and baseball to the storage room and fill the jug with water. Then clean the storage room shelf.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseball"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"shelf"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the clock, file_sorter, and scissors from the desk to the living room table and clean the desk. Arrange the hat on the chair.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"scissors"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"chair_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"desk"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fruits and toy_vehicle from the coffee table to the living room floor and fill the milk_frother_cup with water. Then turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"milk_frother_cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}]
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_fire_truck and toy_animal from the coffee table to the living room floor and clean the coffee table. Arrange the stuffed toy on the couch.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"couch_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"coffee table"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, phone_stand, and folder from the desk to the living room table, fill the water bottle with water, then turn on the lamp. Finally clean the desk.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"phone_stand"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"water bottle"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"desk"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, toy_bee, and baseball to the storage room and fill the jug with water. Then clean the storage room shelf.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseball"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"shelf"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the clock, file_sorter, and scissors from the desk to the living room table and clean the desk. Arrange the hat on the chair.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"file_sorter"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"scissors"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hat"
+],
+"furniture_names": [
+"chair_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"desk"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fruits and toy_vehicle from the coffee table to the living room floor and fill the milk_frother_cup with water. Then turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"milk_frother_cup"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}]
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_fire_truck and toy_animal from the coffee table to the living room floor and clean the coffee table. Arrange the stuffed toy on the couch.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"couch_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"coffee table"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, phone_stand, and folder from the desk to the living room table, fill the water bottle with water, then turn on the lamp. Finally clean the desk.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"phone_stand"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"water bottle"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"desk"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the baseballbat, toy_bee, and baseball to the storage room and fill the jug with water. Then clean the storage room shelf.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseball"
+],
+"furniture_names": [
+"shelf_0"
+],
+"allowed_regions": [
+"storage_room_0"
+]
+},
+{...} ]] } ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ]

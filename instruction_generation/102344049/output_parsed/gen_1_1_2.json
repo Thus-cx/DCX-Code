@@ -1,0 +1,86 @@
+{
+    "instruction": "Move the stuffed_toy, doll, and toy_bee from the living room to the bedroom and arrange them on the bed. Then, fill the milk_frother_cup with water and turn off the lamp in the living room.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed_toy"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_bee"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "milk_frother_cup"
+            ],
+            "furniture_names": [
+                "table_3"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "stuffed_toy",
+                "doll",
+                "toy_bee",
+                "milk_frother_cup",
+                "lamp"
+            ],
+            "exclude_existing_objects": true,
+            "number": "2",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                1,
+                1
+            ]
+        }
+    ]
+}

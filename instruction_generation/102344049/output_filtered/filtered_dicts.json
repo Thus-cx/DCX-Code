@@ -1,0 +1,3264 @@
+[
+    {
+        "instruction": "Move the toy fruits, toy fire truck, and stuffed toy from the dining table to the living room table.  Fill the jug and kettle with water, then turn on the kettle.  Finally clean the dining table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "dining_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fire_truck"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "dining_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "dining_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "dining_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "dining_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_fruits",
+                    "toy_fire_truck",
+                    "stuffed_toy",
+                    "jug",
+                    "kettle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 0
+    },
+    {
+        "instruction": "Move the toy fire truck, screwdriver, and toy food from the dining table to the kitchen and arrange toy food on the counter.  Then clean the dining table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fire_truck"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "screwdriver"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_food"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_fire_truck",
+                    "screwdriver",
+                    "toy_food"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    2,
+                    0
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 1
+    },
+    {
+        "instruction": "Move the toy swing, toy fruits, and basketball from the living room to the garage and arrange toy fruits on the shelves.  Then turn on the lamp. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_swing"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "basketball"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_swing",
+                    "toy_fruits",
+                    "basketball"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    2,
+                    0
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 2
+    },
+    {
+        "instruction": "Move the toy fruits and toy vehicle from the coffee table to the living room floor and fill the milk frother cup with water.  Then turn on the lamp. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "milk_frother_cup"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_fruits",
+                    "toy_vehicle",
+                    "milk_frother_cup",
+                    "lamp"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    3,
+                    0
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 3
+    },
+    {
+        "instruction": "Move the teapot, cup, and book from the living room to the kitchen and fill the teapot with water, then clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "cup"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "teapot",
+                    "cup",
+                    "book"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 4
+    },
+    {
+        "instruction": "Move the laptop, phone stand, and clock from the living room to the bedroom and clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "laptop"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "phone_stand"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "clock"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "laptop",
+                    "phone_stand",
+                    "clock"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 5
+    },
+    {
+        "instruction": "Move the baseballbat, helmet, and hat from the living room to the garage and fill the helmet with water, then clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "helmet"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "hat"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "baseballbat",
+                    "helmet",
+                    "hat"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 6
+    },
+    {
+        "instruction": "Move the toy vehicle, toy fruits, and toy cactus from the living room to the playroom, then fill the toy fruits with water, turn on the lamp, and clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_cactus"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_vehicle",
+                    "toy_fruits",
+                    "toy_cactus",
+                    "lamp"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 7
+    },
+    {
+        "instruction": "Move the toy fire truck, toy fruits, toy swing, and toy animal from the living room to the bedroom and arrange them on the bed.  Then, fill the jug with water and turn on the lamp in the living room. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fire_truck"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_swing"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_animal"
+                ],
+                "furniture_names": [
+                    "table_2"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_3"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_fire_truck",
+                    "toy_fruits",
+                    "toy_swing",
+                    "toy_animal",
+                    "jug",
+                    "lamp"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 8
+    },
+    {
+        "instruction": "Move the baseballbat, tennis racquet, and toy vehicle from the living room to the garage and arrange them on the shelves.  Then, fill the kettle with water and turn on the kettle in the kitchen. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "tennis_racquet"
+                ],
+                "furniture_names": [
+                    "table_2"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_3"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_4"
+                ],
+                "allowed_regions": [
+                    "kitchen_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "baseballbat",
+                    "tennis_racquet",
+                    "toy_vehicle",
+                    "kettle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 9
+    },
+    {
+        "instruction": "Move the stuffed toy, doll, and toy bee from the living room to the bedroom and arrange them on the bed.  Then, fill the milk frother cup with water and turn off the lamp in the living room. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "doll"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_bee"
+                ],
+                "furniture_names": [
+                    "table_2"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "milk_frother_cup"
+                ],
+                "furniture_names": [
+                    "table_3"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "stuffed_toy",
+                    "doll",
+                    "toy_bee",
+                    "milk_frother_cup",
+                    "lamp"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 10
+    },
+    {
+        "instruction": "Move the folder, book, and casserole from the living room to the kitchen and arrange them on the counter.  Then, fill the jug with water and turn on the kettle in the kitchen. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "folder"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "casserole"
+                ],
+                "furniture_names": [
+                    "table_2"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_3"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_4"
+                ],
+                "allowed_regions": [
+                    "kitchen_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "folder",
+                    "book",
+                    "casserole",
+                    "jug",
+                    "kettle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 11
+    },
+    {
+        "instruction": "Move the toy cactus, toy animal, and stuffed toy from the living room to the bedroom and arrange them on the bed.  Then, fill the pan with water and turn off the kettle in the kitchen. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_cactus"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_animal"
+                ],
+                "furniture_names": [
+                    "table_2"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_3"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "pan"
+                ],
+                "furniture_names": [
+                    "table_4"
+                ],
+                "allowed_regions": [
+                    "kitchen_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_4"
+                ],
+                "allowed_regions": [
+                    "kitchen_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_cactus",
+                    "toy_animal",
+                    "stuffed_toy",
+                    "pan",
+                    "kettle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 12
+    },
+    {
+        "instruction": "Move the book and the folder from the living room to the bedroom and put them on the bed.  Then, clean the living room table and the couch. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "folder"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "bed_0"
+                ],
+                "allowed_regions": [
+                    "bedroom_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "folder"
+                ],
+                "furniture_names": [
+                    "bed_0"
+                ],
+                "allowed_regions": [
+                    "bedroom_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "book",
+                    "folder",
+                    "book",
+                    "folder"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 13
+    },
+    {
+        "instruction": "Move the stuffed toy and the toy figure from the living room to the bedroom and put them on the bed.  Then, fill the kettle with water and turn it on. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "action_figure"
+                ],
+                "furniture_names": [
+                    "table_2"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "bed_0"
+                ],
+                "allowed_regions": [
+                    "bedroom_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "action_figure"
+                ],
+                "furniture_names": [
+                    "bed_0"
+                ],
+                "allowed_regions": [
+                    "bedroom_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "stuffed_toy",
+                    "action_figure",
+                    "stuffed_toy",
+                    "action_figure",
+                    "kettle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 14
+    },
+    {
+        "instruction": "Move the baseball bat and the tennis racquet from the living room to the bedroom and put them on the bed.  Then, fill the jug with water and turn it on. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "tennis_racquet"
+                ],
+                "furniture_names": [
+                    "table_2"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "bed_0"
+                ],
+                "allowed_regions": [
+                    "bedroom_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "tennis_racquet"
+                ],
+                "furniture_names": [
+                    "bed_0"
+                ],
+                "allowed_regions": [
+                    "bedroom_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "baseballbat",
+                    "tennis_racquet",
+                    "baseballbat",
+                    "tennis_racquet",
+                    "jug"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    1
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 15
+    },
+    {
+        "instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle.  Finally clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "kettle",
+                    "jug"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    2,
+                    3
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 16
+    },
+    {
+        "instruction": "Move the stuffed toy, book, and toy fruits from the living room to the bedroom and put the book on the bed and the stuffed toy on the chest of drawers .  Then, fill the glass with water and put it on the table .  Finally, clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "stuffed_toy",
+                    "book",
+                    "toy_fruits"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    3
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 17
+    },
+    {
+        "instruction": "Move the baseballbat, tennis racquet, and toy vehicle from the living room to the garage and put the baseballbat on the fridge  and the tennis racquet on the shelves .  Then, fill the helmet with water and put it on the shelf .  Finally, clean the living room floor. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "tennis_racquet"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "baseballbat",
+                    "tennis_racquet",
+                    "toy_vehicle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    3
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 18
+    },
+    {
+        "instruction": "Move the laptop, folder, and file sorter from the living room to the bedroom and put the laptop on the bed and the folder on the chest of drawers .  Then, fill the pen with ink and put it on the table .  Finally, clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "laptop"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "folder"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "file_sorter"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "laptop",
+                    "folder",
+                    "file_sorter"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    3
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 19
+    },
+    {
+        "instruction": "Move the screwdriver, toy bee, and toy pineapple from the living room to the garage and put the screwdriver on the shelves  and the toy bee on the fridge .  Then, fill the bottle with water and put it on the shelf .  Finally, clean the living room floor. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "screwdriver"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_bee"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_pineapple"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "screwdriver",
+                    "toy_bee",
+                    "toy_pineapple"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    3
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 20
+    },
+    {
+        "instruction": "Move the clock, hat, and toy animal from the living room to the bedroom and put the clock on the bed and the hat on the chest of drawers .  Then, fill the sponge with soap and put it on the table .  Finally, clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "clock"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "hat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_animal"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "clock",
+                    "hat",
+                    "toy_animal"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    3
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 21
+    },
+    {
+        "instruction": "Move the jug, teapot, and cup from the dining table to the kitchen and fill all with water.  Turn on the lamp, and clean the dining table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "cup"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "jug",
+                    "teapot",
+                    "cup",
+                    "lamp"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 22
+    },
+    {
+        "instruction": "Move the toy food and toy construction set from the living room to the playroom, and clean the living room floor. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_food"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_construction_set"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_food",
+                    "toy_construction_set"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 23
+    },
+    {
+        "instruction": "Move the baseballbat, tennis racquet, and toy vehicle from the living room to the garage, and put them on the shelves. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "tennis_racquet"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "baseballbat",
+                    "tennis_racquet",
+                    "toy_vehicle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 24
+    },
+    {
+        "instruction": "Move the stuffed toy, doll, and toy animal from the living room to the bedroom, and put them on the bed. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "doll"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_animal"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "stuffed_toy",
+                    "doll",
+                    "toy_animal"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 25
+    },
+    {
+        "instruction": "Move the book, folder, and pen from the living room to the office, and put them on the desk. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "folder"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "pen"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "book",
+                    "folder",
+                    "pen"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 26
+    },
+    {
+        "instruction": "Move the jug, toy fruits, and teapot from the living room to the kitchen, and fill the jug with water.  Place the teapot on the counter and clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "jug",
+                    "toy_fruits",
+                    "teapot"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 27
+    },
+    {
+        "instruction": "Move the kettle, toy airplane, and stuffed toy from the living room to the kitchen, and fill the kettle with water.  Place the toy airplane on the counter and clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_airplane"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "kettle",
+                    "toy_airplane",
+                    "stuffed_toy"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 28
+    },
+    {
+        "instruction": "Move the jug, tea pot, and toy swing from the living room to the kitchen, and fill the jug with water.  Place the tea pot on the counter and clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_swing"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "jug",
+                    "teapot",
+                    "toy_swing"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 29
+    },
+    {
+        "instruction": "Move the kettle, toy bee, and stuffed animal from the living room to the kitchen, and fill the kettle with water.  Place the toy bee on the counter and clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_bee"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "kettle",
+                    "toy_bee",
+                    "stuffed_toy"
+                ],
+                "exclude_existing_objects": true,
+                "number": "3",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    1,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 30
+    },
+    {
+        "instruction": "Move the jug, toy fruits, and stuffed toy from the living room to the kitchen, fill the jug with water, wash the toy fruits, and clean the living room table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "jug",
+                    "toy_fruits",
+                    "stuffed_toy"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    3,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 31
+    },
+    {
+        "instruction": "Move the teapot, cup, and spoon from the living room to the kitchen, fill the teapot with water, wash the cup, and place the spoon on the counter. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "cup"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "spoon"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "teapot",
+                    "cup",
+                    "spoon"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    3,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 32
+    },
+    {
+        "instruction": "Move the lamp, clock, and book from the living room to the bedroom, turn on the lamp, and place the book on the bed. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "clock"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "book"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "lamp",
+                    "clock",
+                    "book"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    3,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 33
+    },
+    {
+        "instruction": "Move the baseballbat, helmet, and hat from the living room to the garage, and place them on the shelves. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "helmet"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "hat"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "baseballbat",
+                    "helmet",
+                    "hat"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    3,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 34
+    },
+    {
+        "instruction": "Move the toy vehicle, toy fire truck, and toy bee from the living room to the closet, and place them on the shelves. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fire_truck"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_bee"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_vehicle",
+                    "toy_fire_truck",
+                    "toy_bee"
+                ],
+                "exclude_existing_objects": true,
+                "number": "5",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    3,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 35
+    },
+    {
+        "instruction": "Move the kettle, toy fire truck, and toy animal from the living room  to the laundryroom/mudroom  and clean the kettle.  Turn on the lamp. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fire_truck"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_animal"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "kettle",
+                    "toy_fire_truck",
+                    "toy_animal",
+                    "lamp"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 36
+    },
+    {
+        "instruction": "Move the teapot, toy vehicle, and stuffed toy from the living room  to the bedroom  and fill the teapot with water.  Place the stuffed toy on the bed. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "bed_0"
+                ],
+                "allowed_regions": [
+                    "bedroom_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "teapot",
+                    "toy_vehicle",
+                    "stuffed_toy",
+                    "stuffed_toy"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    4,
+                    4
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 37
+    },
+    {
+        "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill the kettle with water and turn it on.  Then place the cups on the counter next to the kettle and clean the dining table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "cup"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "jug",
+                    "kettle",
+                    "teapot",
+                    "cup"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    5
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 38
+    },
+    {
+        "instruction": "Move the baseballbat, tennis racquet, and toy vehicle from the living room to the garage and place them on the floor.  Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "tennis_racquet"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "baseballbat",
+                    "tennis_racquet",
+                    "toy_vehicle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    5
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 39
+    },
+    {
+        "instruction": "Move the toy fruits, toy animal, and toy bee from the living room to the kitchen and place them on the counter.  Then fill the kettle with water and turn it on. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fruits"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_animal"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_bee"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "toy_fruits",
+                    "toy_animal",
+                    "toy_bee"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    5
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 40
+    },
+    {
+        "instruction": "Move the casserole, plate, and fork from the living room to the kitchen and place them on the counter.  Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "casserole"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "plate"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "fork"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "casserole",
+                    "plate",
+                    "fork"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    5
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 41
+    },
+    {
+        "instruction": "Move the stuffed toy, toy fire truck, and toy construction set from the living room to the garage and place them on the shelf.  Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fire_truck"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_construction_set"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "stuffed_toy",
+                    "toy_fire_truck",
+                    "toy_construction_set"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    5
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 42
+    },
+    {
+        "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill all with water.  Turn on the lamp, and clean the dining table. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "jug"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "kettle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "teapot"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "cup"
+                ],
+                "furniture_names": [
+                    "table_0"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "lamp"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "jug",
+                    "kettle",
+                    "teapot",
+                    "cup",
+                    "lamp"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    6
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 43
+    },
+    {
+        "instruction": "Put the battery charger and phone stand on the bed. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "battery_charger"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "laptop"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "phone_stand"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "battery_charger",
+                    "laptop",
+                    "phone_stand"
+                ],
+                "exclude_existing_objects": true,
+                "number": "1",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    6
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 44
+    },
+    {
+        "instruction": "Move the screwdriver and baseballbat from the living room to the garage and put the screwdriver in the cabinet and the baseballbat on the floor. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "screwdriver"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "baseballbat"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "screwdriver",
+                    "baseballbat"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    6
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 45
+    },
+    {
+        "instruction": "Move the stuffed toy, toy fire truck, and toy vehicle from the living room to the bedroom and arrange them on the bed. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "stuffed_toy"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_fire_truck"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "toy_vehicle"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "stuffed_toy",
+                    "toy_fire_truck",
+                    "toy_vehicle"
+                ],
+                "exclude_existing_objects": true,
+                "number": "2",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    6
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 46
+    },
+    {
+        "instruction": "Move the cake pan, casserole, and plate from the living room to the kitchen and put the cake pan on the counter and the casserole and plate in the cabinet. ",
+        "initial_state": [
+            {
+                "number": 1,
+                "object_classes": [
+                    "cake_pan"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "casserole"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "number": 1,
+                "object_classes": [
+                    "plate"
+                ],
+                "furniture_names": [
+                    "table_1"
+                ],
+                "allowed_regions": [
+                    "living_room_0"
+                ]
+            },
+            {
+                "name": "common sense",
+                "excluded_object_classes": [
+                    "cake_pan",
+                    "casserole",
+                    "plate"
+                ],
+                "exclude_existing_objects": true,
+                "number": "4",
+                "common_sense_object_classes": true,
+                "location": "on",
+                "furniture_names": []
+            },
+            {
+                "template_task_number": [
+                    0,
+                    6
+                ]
+            }
+        ],
+        "scene_id": "102344049",
+        "episode_id": 47
+    }
+]

@@ -1,0 +1,47 @@
+{
+    "instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle. Finally clean the living room table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "kettle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "kettle",
+                "jug"
+            ],
+            "exclude_existing_objects": true,
+            "number": "4",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                2,
+                3
+            ]
+        }
+    ]
+}

@@ -1,0 +1,906 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, baseballbat, and toy_fruits from the living room to the kitchen and put the stuffed toy on the counter, the baseballbat on the stool, and the toy_fruits on the shelves. Then, turn on the lamp and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle. Finally clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, cup, and tray from the dining table to the kitchen and put the teapot on the counter, the cup on the stool, and the tray on the shelves. Then, turn on the lamp and clean the dining table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tray"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, folder, and pen from the desk to the living room and put the laptop on the couch, the folder on the table, and the pen on the shelf. Then, turn on the lamp and clean the desk.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"desk_1"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"pen"
+],
+"furniture_names": [
+"desk_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fire_truck, toy_vehicle, and toy_cactus from the living room to the garage and put the toy_fire_truck on the shelf, the toy_vehicle on the counter, and the toy_cactus on the floor. Then, turn on the lamp and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+} ]
+
+
+
+I will give you a sample task and you need to modify it based on the house description and objects.
+
+Here is the task:
+Task: [
+{
+"instruction": "Move the hammers to the other living room table so I can clean the table they were on. Also, arrange a dumbbell on the bench in the bedroom.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"hammers"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"dumbbell"
+],
+"furniture_names": [
+"bench_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+}
+]
+
+Modify the task to generate a JSON list of tasks, using the rooms and furniture from this house.
+
+Just change the objects and furniture.
+
+Make sure initial and final locations of objects are different.
+
+Include actions such as turn on/off, fill and clean.
+
+Make tasks multi-step, consisting of more than one object and action.
+
+Your output should only be:
+JSON_OUTPUT: result_list
+where result_list should be a JSON list with the tasks.
+
+Here is the task:
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, baseballbat, and toy_fruits from the living room to the kitchen and put the stuffed toy on the counter, the baseballbat on the stool, and the toy_fruits on the shelves. Then, turn on the lamp and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle. Finally clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, cup, and tray from the dining table to the kitchen and put the teapot on the counter, the cup on the stool, and the tray on the shelves. Then, turn on the lamp and clean the dining table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tray"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, folder, and pen from the desk to the living room and put the laptop on the couch, the folder on the table, and the pen on the shelf. Then, turn on the lamp and clean the desk.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"desk_1"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"pen"
+],
+"furniture_names": [
+"desk_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fire_truck, toy_vehicle, and toy_cactus from the living room to the garage and put the toy_fire_truck on the shelf, the toy_vehicle on the counter, and the toy_cactus on the floor. Then, turn on the lamp and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+} ]
+
+
+
+Here is the sample task:
+
+Task: [
+{
+"instruction": "Move the hammers to the other living room table so I can clean the table they were on. Also, arrange a dumbbell on the bench in the bedroom.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"hammers"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"dumbbell"
+],
+"furniture_names": [
+"bench_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+}
+]
+
+Modify this task to generate a JSON list of tasks, using the rooms and furniture from this house.
+
+Just change the objects and furniture.
+
+Make sure initial and final locations of objects are different.
+
+Include actions such as turn on/off, fill and clean.
+
+Make tasks multi-step, consisting of more than one object and action.
+
+Your output should only be:
+JSON_OUTPUT: result_list
+where result_list should be a JSON list with the tasks.
+
+Here is the output:
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, baseballbat, and toy_fruits from the living room to the kitchen and put the stuffed toy on the counter, the baseballbat on the stool, and the toy_fruits on the shelves. Then, turn on the lamp and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle. Finally clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, cup, and tray from the dining table to the kitchen and put the teapot on the counter, the cup on the stool, and the tray on the shelves. Then, turn on the lamp and clean the dining table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"teapot"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"cup"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tray"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop, folder, and pen from the desk to the living room and put the laptop on the couch, the folder on the table, and the pen on the shelf. Then, turn on the lamp and clean the desk.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"desk_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"desk_1"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"pen"
+],
+"furniture_names": [
+"desk_2"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_fire_truck, toy_vehicle, and toy_cactus from the living room to the garage and put the toy_fire_truck on the shelf, the toy_vehicle on the counter, and the toy_cactus on the floor. Then, turn on the lamp and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_3"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the stuffed toy, baseballbat, and toy_fruits from the living room to the kitchen and put the stuffed toy on the counter, the baseballbat on the stool, and the toy_fruits on the shelves. Then, turn on the lamp and clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle. Finally clean the living room table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"kettle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"jug"
+],
+"furniture_names": [
+"table_2"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the teapot, cup, and tray from the dining table to the kitchen and put the teapot on the counter, the cup on the stool, and the tray on the shelves. Then, turn on the lamp and clean the

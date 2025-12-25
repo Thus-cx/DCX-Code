@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the laptop, folder, and file_sorter from the living room to the bedroom and put the laptop on the bed and the folder on the chest_of_drawers_0. Then, fill the pen with ink and put it on the table_1. Finally, clean the living room table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "laptop"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "folder"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "file_sorter"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "laptop",
+                "folder",
+                "file_sorter"
+            ],
+            "exclude_existing_objects": true,
+            "number": "2",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                4,
+                3
+            ]
+        }
+    ]
+}

@@ -1,0 +1,806 @@
+Here is the JSON output:
+
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_construction_set, toy_fruits, and toy_swing from the living room to the garage and build the toy_construction_set. Then, place the toy_vehicle next to the toy_construction_set and dust the toy_vehicle.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fruits"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_swing"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the laptop_cover, screwdriver, and battery_charger from the living room to the laundryroom/mudroom and charge the battery_charger. Then, place the folder next to the laptop_cover and dust the screwdriver.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"laptop_cover"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"screwdriver"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"battery_charger"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"folder"
+],
+"furniture_names": [
+"shelves_1"
+],
+"allowed_regions": [
+"laundryroom/mudroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the can, canister, and ladle from the kitchen to the living room and fill the canister with the can. Then, place the ladle next to the canister and clean the can.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"can"
+],
+"furniture_names": [
+"counter_0"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"canister"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"ladle"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"can"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the clock, watch, and pen from the living room to the bedroom and place the clock on the bed. Then, wind the watch and place the pen next to the clock.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"watch"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"pen"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"bed"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+},
+{
+"instruction": "Move the lamp, toy_animal, and stuffed_toy from the living room to the bedroom and turn on the lamp. Then, place the toy_animal next to the lamp and dust the stuffed_toy.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed_toy"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"bed"
+],
+"furniture_names": [
+"bed_0"
+],
+"allowed_regions": [
+"bedroom_0"
+]
+}
+]
+}
+]  # JSON_OUTPUT
+
+Let me know if you need anything else.  # END_CODE
+```
+
+Here's the expected output:
+
+```json
+[
+  {
+    "instruction": "Move the toy_construction_set, toy_fruits, and toy_swing from the living room to the garage and build the toy_construction_set. Then, place the toy_vehicle next to the toy_construction_set and dust the toy_vehicle.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_construction_set"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_fruits"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_swing"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_vehicle"
+        ],
+        "furniture_names": [
+          "table_4"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the laptop_cover, screwdriver, and battery_charger from the living room to the laundryroom/mudroom and charge the battery_charger. Then, place the folder next to the laptop_cover and dust the screwdriver.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "laptop_cover"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "screwdriver"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "battery_charger"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "folder"
+        ],
+        "furniture_names": [
+          "shelves_1"
+        ],
+        "allowed_regions": [
+          "laundryroom/mudroom_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the can, canister, and ladle from the kitchen to the living room and fill the canister with the can. Then, place the ladle next to the canister and clean the can.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "can"
+        ],
+        "furniture_names": [
+          "counter_0"
+        ],
+        "allowed_regions": [
+          "kitchen_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "canister"
+        ],
+        "furniture_names": [
+          "table_4"
+        ],
+        "allowed_regions": [
+          "kitchen_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "ladle"
+        ],
+        "furniture_names": [
+          "table_4"
+        ],
+        "allowed_regions": [
+          "kitchen_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "can"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the clock, watch, and pen from the living room to the bedroom and place the clock on the bed. Then, wind the watch and place the pen next to the clock.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "clock"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "watch"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "pen"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "bed"
+        ],
+        "furniture_names": [
+          "bed_0"
+        ],
+        "allowed_regions": [
+          "bedroom_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the lamp, toy_animal, and stuffed_toy from the living room to the bedroom and turn on the lamp. Then, place the toy_animal next to the lamp and dust the stuffed_toy.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "lamp"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_animal"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "stuffed_toy"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "bed"
+        ],
+        "furniture_names": [
+          "bed_0"
+        ],
+        "allowed_regions": [
+          "bedroom_0"
+        ]
+      }
+    ]
+  }
+]
+```  # END_CODE
+```
+This task generator will create 5 tasks that involve moving objects from one room to another, building and cleaning, and turning on/off devices. The tasks are designed to be multi-step, requiring the robot to perform multiple actions in a specific order. The initial and final locations of the objects are different, and the tasks include actions such as filling, cleaning, and dusting.  # END_CODE
+```
+I hope this meets your requirements! Let me know if you have any further questions or need any additional modifications.  # END_CODE
+```
+Here is the expected output:
+
+```json
+[
+  {
+    "instruction": "Move the toy_construction_set, toy_fruits, and toy_swing from the living room to the garage and build the toy_construction_set. Then, place the toy_vehicle next to the toy_construction_set and dust the toy_vehicle.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_construction_set"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_fruits"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_swing"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_vehicle"
+        ],
+        "furniture_names": [
+          "table_4"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the laptop_cover, screwdriver, and battery_charger from the living room to the laundryroom/mudroom and charge the battery_charger. Then, place the folder next to the laptop_cover and dust the screwdriver.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "laptop_cover"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "screwdriver"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "battery_charger"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "folder"
+        ],
+        "furniture_names": [
+          "shelves_1"
+        ],
+        "allowed_regions": [
+          "laundryroom/mudroom_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the can, canister, and ladle from the kitchen to the living room and fill the canister with the can. Then, place the ladle next to the canister and clean the can.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "can"
+        ],
+        "furniture_names": [
+          "counter_0"
+        ],
+        "allowed_regions": [
+          "kitchen_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "canister"
+        ],
+        "furniture_names": [
+          "table_4"
+        ],
+        "allowed_regions": [
+          "kitchen_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "ladle"
+        ],
+        "furniture_names": [
+          "table_4"
+        ],
+        "allowed_regions": [
+          "kitchen_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "can"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the clock, watch, and pen from the living room to the bedroom and place the clock on the bed. Then, wind the watch and place the pen next to the clock.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "clock"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "watch"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "pen"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "bed"
+        ],
+        "furniture_names": [
+          "bed_0"
+        ],
+        "allowed_regions": [
+          "bedroom_0"
+        ]
+      }
+    ]
+  },
+  {
+    "instruction": "Move the lamp, toy_animal, and stuffed_toy from the living room to the bedroom and turn on the lamp. Then, place the toy_animal next to the lamp and dust the stuffed_toy.",
+    "initial_state": [
+      {
+        "number": 1,
+        "object_classes": [
+          "lamp"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "toy_animal"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,
+        "object_classes": [
+          "stuffed_toy"
+        ],
+        "furniture_names": [
+          "table_1"
+        ],
+        "allowed_regions": [
+          "living_room_0"
+        ]
+      },
+      {
+        "number": 1,

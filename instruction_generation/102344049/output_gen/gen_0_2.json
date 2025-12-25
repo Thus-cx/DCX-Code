@@ -1,0 +1,798 @@
+Please provide only the JSON output. 
+
+Here is your output:
+
+JSON_OUTPUT: [
+{
+    "instruction": "Move the lamp, book, and clock from the living room to the bedroom and turn on the lamp. Then place the watch next to the clock and clean the lamp.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "clock"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "watch"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the stuffed toy, toy bee, and toy fruits from the living room to the bedroom and place the doll next to the stuffed toy. Then fill the plant saucer with water and clean the toy bee.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed toy"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plant saucer"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the helmet, hat, and toy swing from the living room to the bedroom and place the toy airplane next to the toy swing. Then turn on the lamp and clean the helmet.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "helmet"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "hat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy swing"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy airplane"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the basket, toy construction set, and toy cactus from the living room to the bedroom and place the toy bee next to the toy cactus. Then fill the plant saucer with water and clean the toy construction set.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "basket"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy construction set"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy cactus"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plant saucer"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the book, lamp, and toy firefighter from the living room to the bedroom and place the toy airplane next to the toy firefighter. Then fill the plant saucer with water and clean the lamp.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy firefighter"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy airplane"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plant saucer"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+}
+]  # JSON_OUTPUT
+```  JSON_OUTPUT: [
+{
+    "instruction": "Move the lamp, book, and clock from the living room to the bedroom and turn on the lamp. Then place the watch next to the clock and clean the lamp.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "clock"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "watch"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the stuffed toy, toy bee, and toy fruits from the living room to the bedroom and place the doll next to the stuffed toy. Then fill the plant saucer with water and clean the toy bee.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed toy"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plant saucer"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the helmet, hat, and toy swing from the living room to the bedroom and place the toy airplane next to the toy swing. Then turn on the lamp and clean the helmet.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "helmet"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "hat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy swing"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy airplane"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the basket, toy construction set, and toy cactus from the living room to the bedroom and place the toy bee next to the toy cactus. Then fill the plant saucer with water and clean the toy construction set.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "basket"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy construction set"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy cactus"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plant saucer"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the book, lamp, and toy firefighter from the living room to the bedroom and place the toy airplane next to the toy firefighter. Then fill the plant saucer with water and clean the lamp.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy firefighter"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy airplane"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plant saucer"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+}
+]  # JSON_OUTPUT
+```  JSON_OUTPUT: [
+{
+    "instruction": "Move the lamp, book, and clock from the living room to the bedroom and turn on the lamp. Then place the watch next to the clock and clean the lamp.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "clock"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "watch"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the stuffed toy, toy bee, and toy fruits from the living room to the bedroom and place the doll next to the stuffed toy. Then fill the plant saucer with water and clean the toy bee.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "stuffed toy"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plant saucer"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "bedroom_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the helmet, hat, and toy swing from the living room to the bedroom and place the toy airplane next to the toy swing. Then turn on the lamp and clean the helmet.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "helmet"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "hat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy swing"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy airplane"
+            ],
+            "furniture_names":

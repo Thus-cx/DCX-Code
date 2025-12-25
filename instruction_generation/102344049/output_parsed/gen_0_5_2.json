@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the toy_fruits, toy_animal, and toy_bee from the living room to the kitchen and place them on the counter. Then fill the kettle with water and turn it on.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "toy_fruits",
+                "toy_animal",
+                "toy_bee"
+            ],
+            "exclude_existing_objects": true,
+            "number": "2",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                5
+            ]
+        }
+    ]
+}

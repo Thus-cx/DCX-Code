@@ -1,0 +1,86 @@
+{
+    "instruction": "Move the folder, book, and casserole from the living room to the kitchen and arrange them on the counter. Then, fill the jug with water and turn on the kettle in the kitchen.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "folder"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "casserole"
+            ],
+            "furniture_names": [
+                "table_2"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_3"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "kettle"
+            ],
+            "furniture_names": [
+                "table_4"
+            ],
+            "allowed_regions": [
+                "kitchen_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "folder",
+                "book",
+                "casserole",
+                "jug",
+                "kettle"
+            ],
+            "exclude_existing_objects": true,
+            "number": "5",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                1,
+                1
+            ]
+        }
+    ]
+}

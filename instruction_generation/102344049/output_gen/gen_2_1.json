@@ -1,0 +1,842 @@
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_fruit, toy_food, toy_animal from the dining table to the kitchen and put them in the shelves_1. Then, clean the dining table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_fruit"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"dining_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_food"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"dining_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_animal"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"dining_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the screwdriver, hammer, and can_opener from the laundryroom/mudroom_0 to the garage_0 and put them in the cabinet_0. Then, turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"screwdriver"
+],
+"furniture_names": [
+"shelves_2"
+],
+"allowed_regions": [
+"laundryroom/mudroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"hammer"
+],
+"furniture_names": [
+"shelves_2"
+],
+"allowed_regions": [
+"laundryroom/mudroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"can_opener"
+],
+"furniture_names": [
+"shelves_2"
+],
+"allowed_regions": [
+"laundryroom/mudroom_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the bread, milk_frother_cup, and casserole from the kitchen to the dining table and fill the milk_frother_cup with water. Then, clean the kitchen counter.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"bread"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"milk_frother_cup"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"casserole"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+}
+]
+},
+{
+"instruction": "Move the doll, stuffed toy, and baseballbat from the bedroom_1 to the living room and put them on the table_1. Then, clean the bedroom_1.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"doll"
+],
+"furniture_names": [
+"chest_of_drawers_1"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"stuffed toy"
+],
+"furniture_names": [
+"chest_of_drawers_1"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"baseballbat"
+],
+"furniture_names": [
+"wardrobe_0"
+],
+"allowed_regions": [
+"bedroom_1"
+]
+}
+]
+},
+{
+"instruction": "Move the phone_stand, clock, and vases from the bedroom_2 to the living room and put them on the table_2. Then, turn off the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"phone_stand"
+],
+"furniture_names": [
+"wardrobe_1"
+],
+"allowed_regions": [
+"bedroom_2"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"clock"
+],
+"furniture_names": [
+"wardrobe_1"
+],
+"allowed_regions": [
+"bedroom_2"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"vase"
+],
+"furniture_names": [
+"wardrobe_1"
+],
+"allowed_regions": [
+"bedroom_2"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  # JSON_OUTPUT 1
+JSON_OUTPUT: [
+{
+"instruction": "Move the toy_cactus, toy_pineapple, and toy_bee from the living room to the bedroom_1 and put them on the chest_of_drawers_1. Then, clean the living room.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_cactus"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_pineapple"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_bee"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the hard_drive, laptop, and gaming_console from the office to the bedroom_2 and put them on the wardrobe_1. Then, turn on the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"hard_drive"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"office_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"laptop"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"office_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"gaming_console"
+],
+"furniture_names": [
+"table_0"
+],
+"allowed_regions": [
+"office_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the spoon, fork, and plate from the dining table to the kitchen and put them in the shelves_2. Then, clean the dining table.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"spoon"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"dining_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"fork"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"dining_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"plate"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"dining_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the egg, tomato, and apple from the kitchen to the dining table and put them in the shelves_2. Then, turn off the lamp.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"egg"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"tomato"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"apple"
+],
+"furniture_names": [
+"table_4"
+],
+"allowed_regions": [
+"kitchen_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"lamp"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+},
+{
+"instruction": "Move the toy_vehicle, toy_fire_truck, and toy_construction_set from the living room to the bedroom_2 and put them on the wardrobe_1. Then, clean the living room.",
+"initial_state": [
+{
+"number": 1,
+"object_classes": [
+"toy_vehicle"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_fire_truck"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+},
+{
+"number": 1,
+"object_classes": [
+"toy_construction_set"
+],
+"furniture_names": [
+"table_1"
+],
+"allowed_regions": [
+"living_room_0"
+]
+}
+]
+}
+]  # JSON_OUTPUT 2
+Note: JSON_OUTPUT 1 and 2 are examples of what the JSON_OUTPUT should look like. There are 5 tasks in each JSON_OUTPUT.
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON_OUTPUT
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON_OUTPUT: [
+...  # 5 tasks
+]  # JSON
+JSON

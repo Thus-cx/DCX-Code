@@ -1,0 +1,823 @@
+Please ensure the tasks are in the same order as the sample task.
+
+Here is the house description:
+
+{
+"rooms": [
+    {
+        "name": "living_room_0",
+        "furniture": [
+            "chair_0",
+            "chair_1",
+            "chair_2",
+            "chair_3",
+            "table_0",
+            "couch_0",
+            "couch_1",
+            "table_1",
+            "table_2",
+            "table_3"
+        ]
+    },
+    {
+        "name": "kitchen_0",
+        "furniture": [
+            "stool_0",
+            "stool_1",
+            "stool_2",
+            "counter_0",
+            "table_4",
+            "chair_4",
+            "chair_5",
+            "chair_6",
+            "chair_7",
+            "fridge_1",
+            "cabinet_1",
+            "cabinet_2"
+        ]
+    },
+    {
+        "name": "closet_0",
+        "furniture": [
+            "shelves_0"
+        ]
+    },
+    {
+        "name": "bedroom_0",
+        "furniture": [
+            "bed_0",
+            "chest_of_drawers_0",
+            "chest_of_drawers_3"
+        ]
+    },
+    {
+        "name": "bedroom_1",
+        "furniture": [
+            "bed_1",
+            "chest_of_drawers_1",
+            "chest_of_drawers_2"
+        ]
+    },
+    {
+        "name": "bedroom_2",
+        "furniture": [
+            "bed_2",
+            "chest_of_drawers_4",
+            "wardrobe_0",
+            "wardrobe_1"
+        ]
+    },
+    {
+        "name": "bathroom_0",
+        "furniture": [
+            "toilet_0"
+        ]
+    },
+    {
+        "name": "bathroom_2",
+        "furniture": [
+            "toilet_1"
+        ]
+    },
+    {
+        "name": "bathroom_1",
+        "furniture": [
+            "toilet_2"
+        ]
+    },
+    {
+        "name": "laundryroom/mudroom_0",
+        "furniture": [
+            "cabinet_0",
+            "shelves_1",
+            "shelves_2"
+        ]
+    },
+    {
+        "name": "garage_0",
+        "furniture": [
+            "fridge_0",
+            "fridge_2"
+        ]
+    }
+],
+"objects": [
+    "keychain",
+    "laptop_cover",
+    "bread",
+    "screwdriver",
+    "stuffed_toy",
+    "folder",
+    "bundt_pan",
+    "credit_card",
+    "battery_charger",
+    "tray",
+    "can_opener",
+    "cup",
+    "action_figure",
+    "spray_bottle",
+    "bowl",
+    "laptop",
+    "hammer",
+    "squeezer",
+    "phone_stand",
+    "plant_container",
+    "shoe",
+    "box",
+    "spoon",
+    "toy_fire_truck",
+    "android_figure",
+    "clock",
+    "laptop_stand",
+    "helmet",
+    "hat",
+    "book",
+    "candy_bar",
+    "jug",
+    "pitcher",
+    "sponge",
+    "doll",
+    "spectacles",
+    "baseballbat",
+    "spicemill",
+    "milk_frother_cup",
+    "backpack",
+    "hard_drive",
+    "teapot",
+    "tennis_racquet",
+    "toy_vehicle",
+    "casserole",
+    "plant_saucer",
+    "tomato",
+    "cake_pan",
+    "fork",
+    "plate",
+    "gaming_console",
+    "monitor_stand",
+    "board_game",
+    "toy_fruits",
+    "toy_swing",
+    "scissors",
+    "can",
+    "canister",
+    "cellphone",
+    "hand_towel",
+    "apple",
+    "pan",
+    "basket",
+    "toy_food",
+    "pen",
+    "toy_animal",
+    "butter_dish",
+    "stuffed toy",
+    "dumbbell",
+    "egg",
+    "watch",
+    "file_sorter",
+    "sushi_mat",
+    "lamp",
+    "soap_dish",
+    "toy_pineapple",
+    "ladle",
+    "soap_dispenser",
+    "knife",
+    "pencil_case",
+    "candle",
+    "toy_cactus",
+    "electric_kettle",
+    "cushion",
+    "mouse_pad",
+    "c-clamp",
+    "lunch_box",
+    "candle_holder",
+    "bottle",
+    "spatula",
+    "basketball",
+    "toy_construction_set",
+    "handbag",
+    "kettle",
+    "bath_towel",
+    "multiport_hub",
+    "statue",
+    "tape",
+    "toy_bee",
+    "picture_frame",
+    "vase",
+    "potato",
+    "carrying_case",
+    "glass",
+    "ramekin",
+    "electronic_cable",
+    "toy_airplane"
+]
+}
+
+Sample task:
+Task: [
+{
+    "instruction": "Move the kettle and the jug from the living room to the kitchen and fill the kettle with water, then turn on the kettle. Finally clean the living room table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "kettle"
+            ],
+            "furniture_names": [
+                "table_0"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+}
+]
+
+Your output should look like this:
+JSON_OUTPUT: [
+{
+    "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill all with water. Turn on the lamp, and clean the dining table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "kettle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "teapot"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "cup"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the baseballbat, toy_fire_truck, and toy_animal from the living room to the bedroom and arrange them on the bed.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fire_truck"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the book, candy_bar, and doll from the living room to the closet and arrange them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "candy_bar"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the toy_fruits, toy_swing, and toy_bee from the living room to the laundryroom/mudroom and arrange them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_swing"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the baseballbat, toy_fire_truck, and toy_animal from the living room to the garage and arrange them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fire_truck"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+}
+]
+JSON_OUTPUT: [
+{
+    "instruction": "Move the jug, kettle, teapot, and cup from the dining table to the kitchen and fill all with water. Turn on the lamp, and clean the dining table.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "jug"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "kettle"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "teapot"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "cup"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "lamp"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the baseballbat, toy_fire_truck, and toy_animal from the living room to the bedroom and arrange them on the bed.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fire_truck"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the book, candy_bar, and doll from the living room to the closet and arrange them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "book"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "candy_bar"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "doll"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the toy_fruits, toy_swing, and toy_bee from the living room to the laundryroom/mudroom and arrange them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fruits"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_swing"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_bee"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+},
+{
+    "instruction": "Move the baseballbat, toy_fire_truck, and toy_animal from the living room to the garage and arrange them on the shelves.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "baseballbat"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_fire_truck"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "toy_animal"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        }
+    ]
+}
+]  JSON_OUTPUT: [ ]
+
+Please ensure the tasks are in the same order as the sample task.
+
+You can use the following objects:
+keychain
+laptop_cover
+bread
+screwdriver
+stuffed_toy
+folder
+bundt_pan
+credit_card
+battery_charger
+tray
+can_opener
+cup
+action_figure
+spray_bottle
+bowl
+laptop
+hammer
+squeezer
+phone_stand
+plant_container
+shoe
+box
+spoon
+toy_fire_truck
+android_figure
+clock
+laptop_stand
+helmet
+hat
+book
+candy_bar
+jug
+pitcher
+sponge
+doll
+spectacles
+baseballbat
+spicemill
+milk_frother_cup
+backpack
+hard_drive
+teapot
+tennis_racquet
+toy_vehicle
+casserole
+plant_saucer
+tomato
+cake_pan
+fork
+plate
+gaming_console
+monitor_stand
+board_game
+toy_fruits
+toy_swing
+scissors
+can
+canister
+cellphone
+hand_towel
+apple
+pan
+basket
+toy_food
+pen
+toy_animal
+butter_dish
+stuffed toy
+dumbbell
+egg
+watch
+file_sorter
+sushi_mat
+lamp
+soap_dish
+toy_pineapple
+ladle
+soap_dispenser
+knife
+pencil_case
+candle
+toy_cactus
+electric_kettle
+cushion
+mouse_pad
+c-clamp
+lunch_box
+candle_holder
+bottle
+spatula
+basketball
+toy_construction_set
+handbag
+kettle
+bath_towel
+multiport_hub
+statue
+tape
+toy_bee
+picture_frame
+vase
+potato
+carrying_case
+glass
+ramekin
+electronic_cable
+toy_airplane
+Your output should only be:
+JSON_OUTPUT: result

@@ -1,0 +1,60 @@
+{
+    "instruction": "Move the casserole, plate, and fork from the living room to the kitchen and place them on the counter. Then fill the jug with water, turn on the kettle, and place the cups on the counter in the kitchen.",
+    "initial_state": [
+        {
+            "number": 1,
+            "object_classes": [
+                "casserole"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "plate"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "number": 1,
+            "object_classes": [
+                "fork"
+            ],
+            "furniture_names": [
+                "table_1"
+            ],
+            "allowed_regions": [
+                "living_room_0"
+            ]
+        },
+        {
+            "name": "common sense",
+            "excluded_object_classes": [
+                "casserole",
+                "plate",
+                "fork"
+            ],
+            "exclude_existing_objects": true,
+            "number": "4",
+            "common_sense_object_classes": true,
+            "location": "on",
+            "furniture_names": []
+        },
+        {
+            "template_task_number": [
+                0,
+                5
+            ]
+        }
+    ]
+}
