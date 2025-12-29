@@ -1,0 +1,82 @@
+# @package _global_
+
+# 继承 PARTNR 的标准配置
+defaults:
+  - /habitat_conf: oracle_spot_kinematic_multi_agent
+  - /habitat_conf/task: rearrange_easy_multi_agent
+  - /llm@planner.llm: llama 
+  - _self_
+
+# ========================================================================
+# 1. 大模型配置 (LLM Configuration)
+# ========================================================================
+planner:
+  type: "centralized_llm"
+  llm:
+    _target_: habitat_llm.llm.hf_model.HFModel
+    # 指向您 AutoDL 的本地模型路径
+    model_name: "/root/autodl-tmp/LLM-Research/Meta-Llama-3-8B-Instruct"
+    max_new_tokens: 1024
+    temperature: 0.0
+    top_p: 0.9
+    stop: ["\nObservation", "\nObservation:", "<|eot_id|>"] 
+    quantization_config:
+      load_in_8bit: True 
+
+# ========================================================================
+# 2. 仿真环境与代理配置 (Simulator & Agents)
+# ========================================================================
+habitat:
+  dataset:
+    data_path: "data/datasets/partnr_episodes/v0_0/val_mini.json.gz"
+    scenes_dir: "data/hssd-hab/" 
+
+  simulator:
+    # 移除 time_step 以避免 ConfigKeyError
+
+    agents:
+      # --- Agent 0: Human (任务执行者) ---
+      agent_0:
+        articulated_agent_type: "kinematic_humanoid"
+        articulated_agent_urdf: "data/humanoids/humanoid_data/female_0/female_0.urdf"
+        motion_data_path: "data/humanoids/humanoid_data/walk_motion.pkl"
+        
+        sim_sensors:
+          head_rgb:
+            # 【修复】必须显式提供 type 和 uuid，否则 RearrangeSim 初始化会报错
+            sensor_type: "HabitatSimRGBSensor"
+            uuid: "head_rgb"
+            resolution: [512, 512]
+          
+          # 【核心需求】第三人称跟踪相机
+          third_rgb:
+            sensor_type: "HabitatSimRGBSensor"
+            uuid: "third_rgb"
+            resolution: [512, 512]
+            position: [-2.0, 1.5, 0.0]
+            orientation: [-0.4, 0.0, 0.0]
+
+      # --- Agent 1: Spot Robot (观察者/摄像师) ---
+      agent_1:
+        articulated_agent_type: "spot_robot"
+        articulated_agent_urdf: "data/robots/hab_spot_arm/urdf/hab_spot_arm.urdf"
+        sim_sensors:
+          # 【核心需求】四足机器人下颚相机
+          jaw_rgb:
+            sensor_type: "HabitatSimRGBSensor"
+            uuid: "jaw_rgb"
+            resolution: [512, 512]
+          
+          # 即使不常用，也需要定义 uuid 以防报错
+          head_rgb:
+            sensor_type: "HabitatSimRGBSensor"
+            uuid: "head_rgb"
+            resolution: [256, 256]
+
+# ========================================================================
+# 3. 输出设置
+# ========================================================================
+habitat_baselines:
+  video_dir: "output_dataset_videos"
+  # 这里引用的必须是上面 uuid 定义的名字
+  video_render_views: ["third_rgb", "jaw_rgb"]

@@ -31,7 +31,6 @@ from habitat_llm.utils.core import separate_agent_idx
 
 # LOCAL
 from habitat_llm.world_model import DynamicWorldGraph, WorldGraph
-from habitat_llm.agent.env import register_measures, register_sensors
 
 if hasattr(torch, "inference_mode"):
     inference_mode = torch.inference_mode
@@ -68,8 +67,7 @@ class EnvironmentInterface:
             self.env = gym_habitat_env
         self.sim = self.env.env.env._env.sim
         self.sim.dynamic_target = np.zeros(3)
-        # register_sensors(conf)
-        # register_measures(conf)
+
         obs = self.env.reset()
 
         if conf.device == "cpu":

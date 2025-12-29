@@ -1,0 +1,33 @@
+# @package _global_
+
+defaults:
+  # 1. 继承官方的多智能体演示配置
+  - /examples/planner_multi_agent_demo_config
+  
+  # 2. 挂载 LLM 规划器
+  - /planner: llm_centralized_planner
+  
+  # 3. 自身覆盖
+  - _self_
+
+# 覆盖参数部分
+planner:
+  plan_config:
+    llm:
+      inference_mode: "hf"
+      generation_params:
+        # 根据您报错日志中显示的路径更新了这里
+        engine: "/root/autodl-tmp/partnr-planner-main/LLM-Research/Meta-Llama-3-8B-Instruct"
+        max_tokens: 500
+        temperature: 0.1
+
+habitat:
+  dataset:
+    data_path: "data/datasets/partnr_episodes/v0_0/val_mini.json.gz"
+    scenes_dir: "data/hssd-hab"
+  
+  # === 关键修复：显式定义智能体顺序 ===
+  simulator:
+    agents_order:
+      - agent_0  # Human
+      - agent_1  # Robot (Spot)

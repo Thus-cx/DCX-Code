@@ -1,0 +1,127 @@
+# @package _global_
+
+defaults:
+  - /examples/planner_multi_agent_demo_config
+  - /instruct@planner.instruct: few_shot_centralized_full_obs_multiagent
+  - override /habitat_conf/dataset: collaboration_hssd
+  - override /habitat/simulator/agents@habitat.simulator.agents.agent_1: spot
+  - _self_
+
+# --- LLM 配置 (本地路径) ---
+planner:
+  llm:
+    llm:
+      _target_    : habitat_llm.llm.Llama
+      _partial_   : True
+
+    # Put your host number here if you are using RLM
+    host          : ""
+    port          : 4449
+    name          : "llama"
+
+    # The default of inference mode of llama2 is hf (hugging face)
+    # You can choose between "hf" and "rlm" (remote language model)
+    inference_mode          : hf
+
+    generation_params:
+      # The llama2 model of hf to use:
+      # meta-llama/Llama-2-7b-hf
+      # meta-llama/Llama-2-13b-hf
+      # meta-llama/Llama-2-70b-hf
+      # Note that do NOT use chat version of model since
+      # the chat text will inject the conversation to
+      # to the text, which degrades the quality
+
+      # When on AWS use following checkpoint
+      engine          : "/root/autodl-tmp/LLM-Research/Meta-Llama-3-8B-Instruct"
+
+
+      # The prompt to start the generation from.
+      prompt        : ''
+
+      # The maximum number of tokens to generate in the completion.
+      max_tokens    : 4096
+
+      # float , optional, defaults to 1.0) — The value used to modulate the next token probabilities.
+      temperature   : 0.6
+      # Returns the best `n` out of `best_of` completions made on server side
+      n             : 1
+      best_of       : 1
+
+      # up to 4 sequences that stop the generation
+      stop          : '\n'
+
+      # Return a list of response or not
+      batch_response: False
+
+      # If we want to do sample method of text generation or not
+      do_sample     : True
+
+      # The parameter for repetition penalty. Between 1.0 and infinity. 1.0 means no penalty. Default to 1.0.
+      repetition_penalty : 1.0
+
+      # The number of highest probability vocabulary tokens to keep for top-k-filtering. Between 1 and infinity. Default to 50.
+      top_k         : 50
+
+      # If set to float < 1, only the most probable tokens with probabilities that add up to top_p or higher are kept for generation. Default to 1.0
+      top_p         : 1
+
+
+# --- 仿真器配置 ---
+habitat:
+  dataset:
+    # type: CollaborationDataset-v0
+    data_path: "data/datasets/partnr_episodes/v0_0/val_mini.json.gz"
+    split: "val"
+    # scenes_dir: "data/scene_datasets/"
+  gym:
+    obs_keys:
+      - agent_0_head_rgb
+      - agent_0_head_depth
+      - agent_0_third_person_rgb
+      - agent_1_jaw_rgb
+      - agent_1_head_depth
+  simulator:
+    agents:
+      # Agent 0: Human
+      agent_0:
+        articulated_agent_type: "KinematicHumanoid"
+        articulated_agent_urdf: "data/humanoids/humanoid_data/female_0/female_0.urdf"
+        # 修正：指向您上传的具体pkl文件
+        motion_data_path: "data/humanoids/humanoid_data/female_0/female_0_motion_data_smplx.pkl"
+        sim_sensors:
+          third_person_rgb: 
+            type: HabitatSimRGBSensor
+            uuid: "third_person_rgb"
+            height: 1024
+            width: 1024
+            position: [0.0, 2.5, -2.0]
+            orientation: [-0.6, 0.0, 0.0]
+            sensor_subtype: PINHOLE
+      
+      # Agent 1: Spot
+      agent_1:
+        articulated_agent_type: "SpotRobot"
+        articulated_agent_urdf: "data/robots/hab_spot_arm/urdf/hab_spot_arm.urdf"
+        sim_sensors:
+          jaw_rgb: 
+            type: HabitatSimRGBSensor
+            uuid: "jaw_rgb"
+            height: 512
+            width: 512
+            position: [0.0, -0.1, 0.0]
+            orientation: [-0.5, 0.0, 0.0]
+            sensor_subtype: PINHOLE
+      
+# --- 动作空间配置 ---
+habitat_conf:
+  task:
+    actions:
+      # Spot 的速度控制动作
+      agent_1_base_velocity:
+        type: "BaseVelocityAction"
+        robot_urdf_path: "data/robots/hab_spot_arm/urdf/hab_spot_arm.urdf"
+        agent_index: 1
+        allow_dyn_slide: True
+        lin_speed_limit: 1.5
+        ang_speed_limit: 1.5
