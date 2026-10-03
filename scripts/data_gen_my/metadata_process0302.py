@@ -7,6 +7,11 @@ from moviepy.video.io.VideoFileClip import VideoFileClip
 from scipy.spatial.transform import Rotation as R
 import subprocess
 
+try:
+    from .clip_metadata_reference import build_metadata_ref
+except ImportError:  # Support direct execution: python scripts/data_gen_my/metadata_process0302.py
+    from clip_metadata_reference import build_metadata_ref
+
 # ================= 配置区域 =================
 # 输出目录 (可在 main 中覆盖)
 OUTPUT_DIR = "processed_dataset"
@@ -606,6 +611,19 @@ def process_episode(video_path, metadata_file, output_base_dir):
                 "duration": duration_sec,
                 "metrics": slice_metrics
             }
+            record["metadata_ref"] = build_metadata_ref(
+                metadata_file=metadata_file,
+                episode_data=data,
+                clip_id=file_base,
+                task_index=i,
+                task=task,
+                start_frame=s,
+                end_frame_exclusive=e,
+                fps=FPS,
+                robot_active_frame=robot_active_step,
+                pick_frame=pick_step_abs,
+                arrival_frame=arrival_step_abs,
+            )
             if "ratio" in plan: record["progress_ratio"] = plan["ratio"]
             record.update(view_paths)
             processed_records.append(record)
