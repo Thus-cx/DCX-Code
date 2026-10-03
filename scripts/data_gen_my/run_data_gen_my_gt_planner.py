@@ -1168,8 +1168,6 @@ def main():
                     }
                     episode_metadata.append(frame_record)
 
-                    observations, reward, done, info = env_interface.step(low_level_actions)
-
                     third_rgb = observations[third_key][:, :, :3].astype(np.uint8)
                     third_depth = observations.get("agent_0_third_depth", None)
                     if third_depth is not None and len(third_depth.shape) == 3:
@@ -1196,6 +1194,9 @@ def main():
                     append_frame(writer_global, observations[global_key].astype(np.uint8))
                     append_frame(writer_global_ann, ann_global)
 
+                    # Advance only after both metadata and all views for frame cstep
+                    # have been captured from the same simulator state.
+                    observations, reward, done, info = env_interface.step(low_level_actions)
                     cstep += 1
 
                     # Periodic manual cleanup if needed (Optional)
@@ -1224,12 +1225,13 @@ def main():
                 "fps": RECORDING_FPS,
                 "frame_count": len(episode_metadata),
                 "frame_index_semantics": (
-                    "steps[i] and frame i are emitted in the same loop iteration"
+                    "steps[i] describes frame i in every recorded view"
                 ),
-                "capture_phase": {
-                    "metadata": "before env_interface.step(low_level_actions)",
-                    "video_frame": "observation returned by env_interface.step(low_level_actions)",
-                },
+                "frame_metadata_alignment": "same_simulator_state_before_env_step",
+                "capture_order": (
+                    "metadata and video frame are captured first; "
+                    "env_interface.step(low_level_actions) advances to the next frame"
+                ),
                 "views": {
                     "ego_raw": f"{ego_raw_save_dir}/{current_episode_id}.mp4",
                     "ego_ann": f"{ego_ann_raw_save_dir}/{current_episode_id}.mp4",
