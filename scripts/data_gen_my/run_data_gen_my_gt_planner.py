@@ -52,6 +52,8 @@ dataset_overrides = [
     "habitat.environment.max_episode_steps=500000",
 ]
 
+RECORDING_FPS = 10.0
+
 
 def get_object_by_sim_handle(world_graph, sim_handle):
     # 在 WorldGraph 中根据 sim_handle 查找 object node
@@ -441,7 +443,7 @@ def setup_env(config):
 
 
 # [MODIFIED] Replaced list-based save with Streaming Video Writer logic
-def init_video_writer(filepath, fps=10):
+def init_video_writer(filepath, fps=RECORDING_FPS):
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     # Using imageio for simpler streaming interface (no need to pre-allocate size)
     return imageio.get_writer(filepath, fps=fps, codec='libx264', format='FFMPEG', macro_block_size=1,
@@ -1143,7 +1145,7 @@ def main():
                         })
                     frame_record = {
                         "step": cstep,
-                        "time_sec": cstep / 10.0,
+                        "time_sec": cstep / RECORDING_FPS,
                         "robot_active": cameraman.is_active,
                         "human_agent": {
                             "action": high_level_action,  # 之前为human_tool
@@ -1207,6 +1209,7 @@ def main():
             close_writer(writer_3rd)
             close_writer(writer_3rd_ann)
             close_writer(writer_global)
+            close_writer(writer_global_ann)
 
         if len(planner.ERROR) > 0:
             ERROR_EPISODES[current_episode_id] = planner.ERROR
@@ -1217,6 +1220,25 @@ def main():
             "episode_id": current_episode_id,
             "scene_id": current_scene_id,
             "instruction": current_instruction,
+            "recording": {
+                "fps": RECORDING_FPS,
+                "frame_count": len(episode_metadata),
+                "frame_index_semantics": (
+                    "steps[i] and frame i are emitted in the same loop iteration"
+                ),
+                "capture_phase": {
+                    "metadata": "before env_interface.step(low_level_actions)",
+                    "video_frame": "observation returned by env_interface.step(low_level_actions)",
+                },
+                "views": {
+                    "ego_raw": f"{ego_raw_save_dir}/{current_episode_id}.mp4",
+                    "ego_ann": f"{ego_ann_raw_save_dir}/{current_episode_id}.mp4",
+                    "third_raw": f"{third_raw_save_dir}/{current_episode_id}.mp4",
+                    "third_ann": f"{third_ann_raw_save_dir}/{current_episode_id}.mp4",
+                    "global": f"{global_save_dir}/{current_episode_id}.mp4",
+                    "global_ann": f"{global_ann_save_dir}/{current_episode_id}.mp4",
+                },
+            },
             "object_and_receptacle_handle_mapping": name_to_handle_map,
             "subtasks": subtask_recorder.completed_subtasks,
             "evaluation_propositions": prop_list,
