@@ -1,0 +1,3002 @@
+[
+  {
+    "question_id": "3_accumulative_transit_30",
+    "episode_id": "3",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.02,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/3_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/3_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/3_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "laundry_room",
+      "is_holding_object": true,
+      "held_object_category": "clothes",
+      "target_furniture": "washing_machine",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "clothes",
+        "washing_machine"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"couch\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"pillow\", \"couch\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "couch",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "pillow",
+        "couch"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "3_accumulative_transit_60",
+    "episode_id": "3",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 4.05,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/3_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/3_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/3_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "laundry_room",
+      "is_holding_object": true,
+      "held_object_category": "clothes",
+      "target_furniture": "washing_machine",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "clothes",
+        "washing_machine"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "3_accumulative_transit_90",
+    "episode_id": "3",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 6.08,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/3_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/3_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/3_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "laundry_room",
+      "is_holding_object": true,
+      "held_object_category": "clothes",
+      "target_furniture": "washing_machine",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "clothes",
+        "washing_machine"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"laundryroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"washer_dryer\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"washer_dryer\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "laundryroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "washer_dryer",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "washer_dryer"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "3_fixed_len_phase_early",
+    "episode_id": "3",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.02,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/3_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/3_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/3_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "laundry_room",
+      "is_holding_object": true,
+      "held_object_category": "clothes",
+      "target_furniture": "washing_machine",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "clothes",
+        "washing_machine"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"couch\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"pillow\", \"couch\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "couch",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "pillow",
+        "couch"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "3_fixed_len_phase_mid",
+    "episode_id": "3",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.02,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/3_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/3_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/3_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "laundry_room",
+      "is_holding_object": true,
+      "held_object_category": "clothes",
+      "target_furniture": "washing_machine",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "clothes",
+        "washing_machine"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"laundryroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"washer_dryer\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"washer_dryer\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "laundryroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "washer_dryer",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "washer_dryer"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "3_fixed_len_phase_late",
+    "episode_id": "3",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 2.7,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/3_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/3_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/3_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "laundry_room",
+      "is_holding_object": true,
+      "held_object_category": "clothes",
+      "target_furniture": "washing_machine",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "clothes",
+        "washing_machine"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"laundryroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"washer_dryer\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"washer_dryer\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "laundryroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "washer_dryer",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "washer_dryer"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "1_accumulative_transit_30",
+    "episode_id": "1",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.53,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/1_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/1_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/1_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"pillow\", \"bed\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": true,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": true,
+      "acc_intent": true,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "1_accumulative_transit_60",
+    "episode_id": "1",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 5.05,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/1_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/1_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/1_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"pillow\", \"cabinet\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "pillow",
+        "cabinet"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "1_accumulative_transit_90",
+    "episode_id": "1",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 7.58,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/1_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/1_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/1_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"pillow\", \"bed\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "pillow",
+        "bed"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": true,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": true,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "1_fixed_len_phase_early",
+    "episode_id": "1",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.53,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/1_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/1_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/1_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"pillow\", \"bed\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": true,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": true,
+      "acc_intent": true,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "1_fixed_len_phase_mid",
+    "episode_id": "1",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.53,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/1_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/1_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/1_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"dining_table\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"Unknown\", \"dining_table\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "dining_table",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "Unknown",
+        "dining_table"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "1_fixed_len_phase_late",
+    "episode_id": "1",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 3.37,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/1_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/1_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/1_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "2_accumulative_transit_30",
+    "episode_id": "2",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.9,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/2_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/2_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/2_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "blanket",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "blanket",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"pillow\", \"bed\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "pillow",
+        "bed"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": true,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": true,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "2_accumulative_transit_60",
+    "episode_id": "2",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 5.8,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/2_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/2_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/2_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "blanket",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "blanket",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"couch\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"pillow\", \"couch\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "couch",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "pillow",
+        "couch"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "2_accumulative_transit_90",
+    "episode_id": "2",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 8.7,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/2_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/2_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/2_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "blanket",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "blanket",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"Unknown\",\n  \"Q5_furniture_affordance\": \"Unknown\",\n  \"Q6_final_intent_triplet\": [\"Unknown\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "Unknown",
+      "Q5_furniture_affordance": "Unknown",
+      "Q6_final_intent_triplet": [
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "2_fixed_len_phase_early",
+    "episode_id": "2",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.9,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/2_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/2_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/2_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "blanket",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "blanket",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"pillow\", \"bed\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "pillow",
+        "bed"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": true,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": true,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "2_fixed_len_phase_mid",
+    "episode_id": "2",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.9,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/2_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/2_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/2_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "blanket",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "blanket",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"dining_table\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"Unknown\", \"dining_table\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "dining_table",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "Unknown",
+        "dining_table"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "2_fixed_len_phase_late",
+    "episode_id": "2",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 3.87,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/2_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/2_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/2_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "blanket",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "blanket",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "4_accumulative_transit_30",
+    "episode_id": "4",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.67,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/4_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/4_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/4_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "table",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "apple",
+        "table"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "4_accumulative_transit_60",
+    "episode_id": "4",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 7.35,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/4_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/4_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/4_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "table",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "apple",
+        "table"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "4_accumulative_transit_90",
+    "episode_id": "4",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 11.03,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/4_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/4_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/4_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "table",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "apple",
+        "table"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "4_fixed_len_phase_early",
+    "episode_id": "4",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.67,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/4_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/4_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/4_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "table",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "apple",
+        "table"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "4_fixed_len_phase_mid",
+    "episode_id": "4",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.67,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/4_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/4_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/4_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "table",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "apple",
+        "table"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"Unknown\",\n  \"Q5_furniture_affordance\": \"Unknown\",\n  \"Q6_final_intent_triplet\": [\"Unknown\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "Unknown",
+      "Q5_furniture_affordance": "Unknown",
+      "Q6_final_intent_triplet": [
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "4_fixed_len_phase_late",
+    "episode_id": "4",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.9,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/4_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/4_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/4_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "table",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "apple",
+        "table"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"dining_table\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"Unknown\", \"dining_table\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "dining_table",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "Unknown",
+        "dining_table"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "5_accumulative_transit_30",
+    "episode_id": "5",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.07,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/5_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/5_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/5_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "bottle",
+      "target_furniture": "refrigerator",
+      "furniture_affordance": "Storage",
+      "final_intent_triplet": [
+        "storage",
+        "bottle",
+        "refrigerator"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "5_accumulative_transit_60",
+    "episode_id": "5",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 6.15,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/5_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/5_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/5_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "bottle",
+      "target_furniture": "refrigerator",
+      "furniture_affordance": "Storage",
+      "final_intent_triplet": [
+        "storage",
+        "bottle",
+        "refrigerator"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "5_accumulative_transit_90",
+    "episode_id": "5",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 9.22,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/5_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/5_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/5_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "bottle",
+      "target_furniture": "refrigerator",
+      "furniture_affordance": "Storage",
+      "final_intent_triplet": [
+        "storage",
+        "bottle",
+        "refrigerator"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"false\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "false",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "5_fixed_len_phase_early",
+    "episode_id": "5",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.07,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/5_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/5_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/5_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "bottle",
+      "target_furniture": "refrigerator",
+      "furniture_affordance": "Storage",
+      "final_intent_triplet": [
+        "storage",
+        "bottle",
+        "refrigerator"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "5_fixed_len_phase_mid",
+    "episode_id": "5",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.07,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/5_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/5_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/5_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "bottle",
+      "target_furniture": "refrigerator",
+      "furniture_affordance": "Storage",
+      "final_intent_triplet": [
+        "storage",
+        "bottle",
+        "refrigerator"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"bowl\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"bowl\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "bowl",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "bowl",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "5_fixed_len_phase_late",
+    "episode_id": "5",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.1,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/5_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/5_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/5_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "bottle",
+      "target_furniture": "refrigerator",
+      "furniture_affordance": "Storage",
+      "final_intent_triplet": [
+        "storage",
+        "bottle",
+        "refrigerator"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bathroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bathroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "6_accumulative_transit_30",
+    "episode_id": "6",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.27,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/6_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/6_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/6_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"wardrobe\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"pillow\", \"wardrobe\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "wardrobe",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "pillow",
+        "wardrobe"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "6_accumulative_transit_60",
+    "episode_id": "6",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 4.55,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/6_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/6_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/6_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"wardrobe\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"pillow\", \"wardrobe\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "wardrobe",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "pillow",
+        "wardrobe"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "6_accumulative_transit_90",
+    "episode_id": "6",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 6.82,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/6_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/6_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/6_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"pillow\", \"bed\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": true,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": true,
+      "acc_intent": true,
+      "sca_reasoning": true,
+      "sca_full": true
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "6_fixed_len_phase_early",
+    "episode_id": "6",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.27,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/6_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/6_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/6_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"wardrobe\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"pillow\", \"wardrobe\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "wardrobe",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "pillow",
+        "wardrobe"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "6_fixed_len_phase_mid",
+    "episode_id": "6",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.27,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/6_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/6_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/6_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"pillow\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"pillow\", \"bed\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "pillow",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": true,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": true,
+      "acc_intent": true,
+      "sca_reasoning": true,
+      "sca_full": true
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "6_fixed_len_phase_late",
+    "episode_id": "6",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 3.03,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/6_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/6_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/6_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "pillow",
+      "target_furniture": "bed",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "pillow",
+        "bed"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"wardrobe\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"wardrobe\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "wardrobe",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "wardrobe"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "8_accumulative_transit_30",
+    "episode_id": "8",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.75,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/8_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/8_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/8_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "apple",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "8_accumulative_transit_60",
+    "episode_id": "8",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 7.5,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/8_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/8_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/8_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "apple",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "8_accumulative_transit_90",
+    "episode_id": "8",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 11.25,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/8_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/8_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/8_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "apple",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "8_fixed_len_phase_early",
+    "episode_id": "8",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.75,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/8_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/8_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/8_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "apple",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "8_fixed_len_phase_mid",
+    "episode_id": "8",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.75,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/8_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/8_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/8_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "apple",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "8_fixed_len_phase_late",
+    "episode_id": "8",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 5.0,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/8_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/8_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/8_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "apple",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "apple",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "7_accumulative_transit_30",
+    "episode_id": "7",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.19,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/7_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/7_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/7_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "computer",
+      "target_furniture": "desk",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "computer",
+        "desk"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "7_accumulative_transit_60",
+    "episode_id": "7",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 6.38,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/7_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/7_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/7_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "computer",
+      "target_furniture": "desk",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "computer",
+        "desk"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"laptop\",\n  \"Q4_target_furniture\": \"desk\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"laptop\", \"desk\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "laptop",
+      "Q4_target_furniture": "desk",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "laptop",
+        "desk"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": true,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": true,
+      "acc_intent": false,
+      "sca_reasoning": true,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "7_accumulative_transit_90",
+    "episode_id": "7",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 9.57,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/7_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/7_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/7_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "computer",
+      "target_furniture": "desk",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "computer",
+        "desk"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"laptop\",\n  \"Q4_target_furniture\": \"desk\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"laptop\", \"desk\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "laptop",
+      "Q4_target_furniture": "desk",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "laptop",
+        "desk"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": true,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": true,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "7_fixed_len_phase_early",
+    "episode_id": "7",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.19,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/7_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/7_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/7_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "computer",
+      "target_furniture": "desk",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "computer",
+        "desk"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"bed\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "bed",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "7_fixed_len_phase_mid",
+    "episode_id": "7",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.19,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/7_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/7_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/7_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "computer",
+      "target_furniture": "desk",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "computer",
+        "desk"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"laptop\",\n  \"Q4_target_furniture\": \"desk\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"laptop\", \"desk\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "laptop",
+      "Q4_target_furniture": "desk",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "laptop",
+        "desk"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": true,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": true,
+      "acc_intent": false,
+      "sca_reasoning": true,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "7_fixed_len_phase_late",
+    "episode_id": "7",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.25,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/7_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/7_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/7_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "bedroom",
+      "is_holding_object": true,
+      "held_object_category": "computer",
+      "target_furniture": "desk",
+      "furniture_affordance": "Placement",
+      "final_intent_triplet": [
+        "placement",
+        "computer",
+        "desk"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"bedroom\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"laptop\",\n  \"Q4_target_furniture\": \"desk\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"laptop\", \"desk\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "bedroom",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "laptop",
+      "Q4_target_furniture": "desk",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "laptop",
+        "desk"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": true,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": true,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "9_accumulative_transit_30",
+    "episode_id": "9",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.55,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/9_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/9_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/9_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "kettle",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "kettle",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"kettle\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"kettle\", \"cabinet\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "kettle",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "kettle",
+        "cabinet"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "9_accumulative_transit_60",
+    "episode_id": "9",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 7.1,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/9_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/9_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/9_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "kettle",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "kettle",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"bowl\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"bowl\", \"cabinet\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "bowl",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "bowl",
+        "cabinet"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "9_accumulative_transit_90",
+    "episode_id": "9",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 10.65,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/9_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/9_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/9_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "kettle",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "kettle",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"kettle\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"kettle\", \"cabinet\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "kettle",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "kettle",
+        "cabinet"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "9_fixed_len_phase_early",
+    "episode_id": "9",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.55,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/9_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/9_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/9_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "kettle",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "kettle",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"kettle\",\n  \"Q4_target_furniture\": \"cabinet\",\n  \"Q5_furniture_affordance\": \"Storage\",\n  \"Q6_final_intent_triplet\": [\"Storage\", \"kettle\", \"cabinet\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "kettle",
+      "Q4_target_furniture": "cabinet",
+      "Q5_furniture_affordance": "Storage",
+      "Q6_final_intent_triplet": [
+        "Storage",
+        "kettle",
+        "cabinet"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": true,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "9_fixed_len_phase_mid",
+    "episode_id": "9",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.55,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/9_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/9_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/9_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "kettle",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "kettle",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Maintenance\",\n  \"Q6_final_intent_triplet\": [\"Maintenance\", \"Unknown\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Maintenance",
+      "Q6_final_intent_triplet": [
+        "Maintenance",
+        "Unknown",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "9_fixed_len_phase_late",
+    "episode_id": "9",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.73,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/9_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/9_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/9_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "kitchen",
+      "is_holding_object": true,
+      "held_object_category": "kettle",
+      "target_furniture": "faucet",
+      "furniture_affordance": "Maintenance",
+      "final_intent_triplet": [
+        "maintenance",
+        "kettle",
+        "faucet"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"kitchen\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"bowl\",\n  \"Q4_target_furniture\": \"sink\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"bowl\", \"sink\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "kitchen",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "bowl",
+      "Q4_target_furniture": "sink",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "bowl",
+        "sink"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "10_accumulative_transit_30",
+    "episode_id": "10",
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 4.63,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/10_accumulative_transit_30_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/10_accumulative_transit_30_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/10_accumulative_transit_30_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "box",
+      "target_furniture": "trash_can",
+      "furniture_affordance": "Disposal",
+      "final_intent_triplet": [
+        "disposal",
+        "box",
+        "trash_can"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"bottle\",\n  \"Q4_target_furniture\": \"dining_table\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"bottle\", \"dining_table\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "bottle",
+      "Q4_target_furniture": "dining_table",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "bottle",
+        "dining_table"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "10_accumulative_transit_60",
+    "episode_id": "10",
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 9.25,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/10_accumulative_transit_60_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/10_accumulative_transit_60_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/10_accumulative_transit_60_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "box",
+      "target_furniture": "trash_can",
+      "furniture_affordance": "Disposal",
+      "final_intent_triplet": [
+        "disposal",
+        "box",
+        "trash_can"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"bowl\",\n  \"Q4_target_furniture\": \"trashcan\",\n  \"Q5_furniture_affordance\": \"Disposal\",\n  \"Q6_final_intent_triplet\": [\"Disposal\", \"bowl\", \"trashcan\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "bowl",
+      "Q4_target_furniture": "trashcan",
+      "Q5_furniture_affordance": "Disposal",
+      "Q6_final_intent_triplet": [
+        "Disposal",
+        "bowl",
+        "trashcan"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": true,
+      "acc_action": true,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "10_accumulative_transit_90",
+    "episode_id": "10",
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 13.88,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/10_accumulative_transit_90_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/10_accumulative_transit_90_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/10_accumulative_transit_90_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "box",
+      "target_furniture": "trash_can",
+      "furniture_affordance": "Disposal",
+      "final_intent_triplet": [
+        "disposal",
+        "box",
+        "trash_can"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"dining_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"bowl\",\n  \"Q4_target_furniture\": \"dining_table\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"bowl\", \"dining_table\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "dining_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "bowl",
+      "Q4_target_furniture": "dining_table",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "bowl",
+        "dining_table"
+      ]
+    },
+    "evaluation": {
+      "acc_area": true,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "10_fixed_len_phase_early",
+    "episode_id": "10",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 4.63,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/10_fixed_len_phase_early_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/10_fixed_len_phase_early_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/10_fixed_len_phase_early_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "box",
+      "target_furniture": "trash_can",
+      "furniture_affordance": "Disposal",
+      "final_intent_triplet": [
+        "disposal",
+        "box",
+        "trash_can"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"True\",\n  \"Q3_held_object_category\": \"bottle\",\n  \"Q4_target_furniture\": \"dining_table\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"bottle\", \"dining_table\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "True",
+      "Q3_held_object_category": "bottle",
+      "Q4_target_furniture": "dining_table",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "bottle",
+        "dining_table"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "10_fixed_len_phase_mid",
+    "episode_id": "10",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 4.63,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/10_fixed_len_phase_mid_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/10_fixed_len_phase_mid_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/10_fixed_len_phase_mid_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "box",
+      "target_furniture": "trash_can",
+      "furniture_affordance": "Disposal",
+      "final_intent_triplet": [
+        "disposal",
+        "box",
+        "trash_can"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"living_room\",\n  \"Q2_is_holding_object\": \"true\",\n  \"Q3_held_object_category\": \"bowl\",\n  \"Q4_target_furniture\": \"dining_table\",\n  \"Q5_furniture_affordance\": \"Placement\",\n  \"Q6_final_intent_triplet\": [\"Placement\", \"bowl\", \"dining_table\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "living_room",
+      "Q2_is_holding_object": "true",
+      "Q3_held_object_category": "bowl",
+      "Q4_target_furniture": "dining_table",
+      "Q5_furniture_affordance": "Placement",
+      "Q6_final_intent_triplet": [
+        "Placement",
+        "bowl",
+        "dining_table"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": true,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  },
+  {
+    "question_id": "10_fixed_len_phase_late",
+    "episode_id": "10",
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 6.17,
+    "video_paths": {
+      "ego": "real_raw_videos/train_dataset/ego/10_fixed_len_phase_late_ego.mp4",
+      "third": "real_raw_videos/train_dataset/third/10_fixed_len_phase_late_third.mp4",
+      "global": "real_raw_videos/train_dataset/global/10_fixed_len_phase_late_global.mp4"
+    },
+    "ground_truth": {
+      "target_area": "dining_room",
+      "is_holding_object": true,
+      "held_object_category": "box",
+      "target_furniture": "trash_can",
+      "furniture_affordance": "Disposal",
+      "final_intent_triplet": [
+        "disposal",
+        "box",
+        "trash_can"
+      ]
+    },
+    "model_output": "{\n  \"Q1_target_area\": \"Unknown\",\n  \"Q2_is_holding_object\": \"False\",\n  \"Q3_held_object_category\": \"Unknown\",\n  \"Q4_target_furniture\": \"Unknown\",\n  \"Q5_furniture_affordance\": \"Unknown\",\n  \"Q6_final_intent_triplet\": [\"Unknown\", \"Unknown\", \"Unknown\"]\n}",
+    "parsed_json": {
+      "Q1_target_area": "Unknown",
+      "Q2_is_holding_object": "False",
+      "Q3_held_object_category": "Unknown",
+      "Q4_target_furniture": "Unknown",
+      "Q5_furniture_affordance": "Unknown",
+      "Q6_final_intent_triplet": [
+        "Unknown",
+        "Unknown",
+        "Unknown"
+      ]
+    },
+    "evaluation": {
+      "acc_area": false,
+      "acc_status": false,
+      "acc_obj": false,
+      "acc_furn": false,
+      "acc_aff": false,
+      "acc_action": false,
+      "acc_target": false,
+      "acc_intent": false,
+      "sca_reasoning": false,
+      "sca_full": false
+    },
+    "parse_error": null
+  }
+]

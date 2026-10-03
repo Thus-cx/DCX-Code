@@ -253,9 +253,41 @@ Answer: After looking at the scene I can tell that the furniture that match the 
 
 class FOT_FEW_SHOT_Prompt(Prompt):
     def __init__(self, name, llm_conf) -> None:
+        # ------new: 引入变体对应，增加查找可能性-------
+        conversion_dict = {
+            "plant": "plant_container",
+            "watering_can": "pitcher",
+            "reading_lamp": "lamp",
+            "phone": "cellphone",
+            "ball": "basketball",
+            "towel": "hand_towel",
+            "washcloth": "hand_towel",
+            "laundry": "bath_towel",
+            "laundry_basket": "basket",
+            "hamper": "basket",
+            "toy_car": "toy_vehicle",
+            "stuffed_animal": "stuffed_toy",
+            "dish": "plate",
+            "shoes": "shoe",
+            "cutlery": "fork",
+            "dishes": "plate",
+            "mug": "cup",
+            "cups": "cup",
+            "bat": "baseballbat",
+            "dirty_dishes": "plate",
+            "clean_dishes": "plate",
+            "dirty_laundry": "bath_towel",
+        }
+        # --------------以下会使用-------------------
         super().__init__(name, llm_conf)
         self._prompt = f"""{self._llm_conf.system_tag}
-You are an expert at summarizing information about objects present in a house. Use the following examples to format your answers:
+You are an expert at summarizing information about objects present in a house. You can understand the user's intention and make appropriate changes to the object nouns in the user's questions to find the object that the user wants as much as possible. Use the following examples to format your answers:
+
+Some conversions of objects name are as belows. You can read and learn the following variations of object names to better search for changes in the names asked by users.
+
+START OF CONVERSIONS
+{conversion_dict}
+END OF CONVERSIONS
 
 START OF EXAMPLES
 {self._llm_conf.eot_tag}
@@ -300,6 +332,39 @@ Answer: After looking at the scene I can tell that the objects that match the qu
 {self._llm_conf.eot_tag}
 {self._llm_conf.assistant_tag}
 No objects are found yet, please explore the house by navigating to different rooms.
+<Done>
+{self._llm_conf.eot_tag}
+
+{self._llm_conf.user_tag}
+Example 4:
+Following objects are present:
+- toy_construction_set_0 on table_15 in living_room_0 2.5 meters away
+- toy_bee_1 on bed_0 in bedroom 1/2 meters away
+- toy_car_2 on sofa_1 in living_room_0 1.52 meters away
+- toy_plane_0 on table_0 in living_room_0 1.88 meters away
+- apple_0 on bathtub_0 in bathroom_0 3.67 meters away
+
+Query: toy vehicle
+Answer: After looking at the scene I can tell that the objects that match the query are:
+{self._llm_conf.eot_tag}
+{self._llm_conf.assistant_tag}
+- toy_car_2 on sofa_1 in living_room_0 1.52 meters away
+- toy_plane_0 on table_0 in living_room_0 1.88 meters away
+<Done>
+{self._llm_conf.eot_tag}
+
+{self._llm_conf.user_tag}
+Example 5:
+Following objects are present:
+- plant_container_0 on table_15 in living_room_0 2.5 meters away
+- toy_bee_1 on bed_0 in bedroom 1/2 meters away
+- apple_0 on bathtub_0 in bathroom_0 3.67 meters away
+
+Query: plant
+Answer: After looking at the scene I can tell that the objects that match the query are:
+{self._llm_conf.eot_tag}
+{self._llm_conf.assistant_tag}
+- plant_container_0 on table_15 in living_room_0 2.5 meters away
 <Done>
 {self._llm_conf.eot_tag}
 

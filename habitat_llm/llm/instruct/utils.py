@@ -418,6 +418,7 @@ def actions_parser(
         line = line.strip()
         line = remove_non_alpha_left(line)
         if line.startswith("Agent") and ("_Action" in line):
+            
             # Extract agent info and actions info
             parts = line.split(":", 1)
             if len(parts) < 2:

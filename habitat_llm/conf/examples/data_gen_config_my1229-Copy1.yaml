@@ -1,0 +1,91 @@
+# @package _global_
+
+defaults:
+  # 1. 基础环境配置 (这也是 Body 的基础)
+  - /examples/planner_multi_agent_demo_config
+  
+  # 2. 任务指令配置
+  - /instruct@planner.instruct: few_shot_centralized_full_obs_multiagent
+ 
+  # 3. [核心修正] 挂载“大脑”配置 (High-Level Agent Config)
+  # 这步至关重要！它告诉系统：agent_0 使用 oracle_rearrange_agent 的逻辑配置
+  # 你可以在 habitat_llm/conf/agent/ 下找到这些文件
+  - /agent@agents.agent_0: oracle_rearrange_object_states_agent
+  - /agent@agents.agent_1: oracle_rearrange_agent # 或者使用 spot_oracle_config_with_explore
+  
+  #- /habitat/task/actions@habitat.task.actions.agent_1_arm_action: arm_action
+  # 4. 覆盖数据集 (Body 的一部分)
+  - override /habitat_conf/dataset: collaboration_hssd
+  
+  # 5. 覆盖 Spot 的物理配置 (Body 的一部分)
+  - override /habitat/simulator/agents@habitat.simulator.agents.agent_1: spot
+  - _self_
+
+# --- 全局规划器配置 ---
+planner:
+  # 显式告诉 Planner 它控制谁。
+  # 这里的名字必须与上面的 defaults 中 @agents.xxx 后的名字一致
+  agents: 
+    - "agent_0" 
+  
+  llm:
+    llm:
+      _target_: habitat_llm.llm.Llama
+      _partial_: True
+    inference_mode: hf
+    generation_params:
+      engine: "/root/autodl-tmp/LLM-Research/Meta-Llama-3-8B-Instruct"
+
+# --- 物理环境微调 (The Body) ---
+habitat:
+  task:
+    actions:
+      # 确保所有动作空间都被定义，防止 Action Space Error
+      agent_0_base_velocity:
+        type: "BaseVelAction"
+        allow_dyn_slide: True
+      agent_0_humanoid_joint_action:
+        type: "HumanoidJointAction"
+      agent_1_base_velocity:
+        type: "BaseVelAction"
+        lin_speed: 2.0
+        ang_speed: 2.0
+        allow_dyn_slide: True
+      # agent_1_arm_action: 
+      #   type: "ArmAction"
+      #   arm_controller: "ArmRelPosAction"
+      #   grip_controller: "SuctionGraspAction"
+      #   arm_joint_dimensionality: 7
+        
+
+  simulator:
+    agents_order: ["agent_0", "agent_1"]
+    agents:
+      # Agent 0: Human Body
+      agent_0:
+        articulated_agent_type: "KinematicHumanoid"
+        articulated_agent_urdf: "data/humanoids/humanoid_data/female_0/female_0.urdf"
+        motion_data_path: "data/humanoids/humanoid_data/female_0/female_0_motion_data_smplx.pkl"
+        sim_sensors:
+          third_person_rgb: 
+            type: HabitatSimRGBSensor
+            uuid: "third_person_rgb"
+            height: 1024
+            width: 1024
+            position: [0.0, 2.5, -2.0]
+            orientation: [-0.6, 0.0, 0.0]
+            sensor_subtype: PINHOLE
+      
+      # Agent 1: Spot Body
+      agent_1:
+        articulated_agent_type: "SpotRobot"
+        articulated_agent_urdf: "data/robots/hab_spot_arm/urdf/hab_spot_arm.urdf"
+        sim_sensors:
+          jaw_rgb: 
+            type: HabitatSimRGBSensor
+            uuid: "jaw_rgb"
+            height: 512
+            width: 512
+            position: [0.0, 0.0, 0.0]
+            orientation: [0.0, 0.0, 0.0]
+            sensor_subtype: PINHOLE

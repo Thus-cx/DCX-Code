@@ -32,6 +32,8 @@ class Llama(HFModel):
         :param stop: A string that determines when to stop generation
         :max_length: The max number of tokens to generate
         """
+        # print(f"DEBUG in llama.py: stop parameter value: '{stop}'")
+        # print(f"DEBUG in llama.py: self.generation_params.stop: '{self.generation_params.stop}'")
         # Prepare the model input from prompt
         model_inputs = self.tokenizer(prompt, return_tensors="pt").to(self.model.device)
 
@@ -110,3 +112,9 @@ class Llama(HFModel):
                         response = decode_text[0].split(s)[0]
                         break
             self.response: str = response.rstrip()
+        # print("====DEBUG LLAMA OUTPUT====")
+        # print(f"decode_text[0](原始): '{decode_text[0]}'")
+        # print(f"decode_text[0]长度: {len(decode_text[0])}")
+        # print(f"停止词: '{stop}'")
+        # print(f"响应: '{self.response}'")
+        # print("==========================")

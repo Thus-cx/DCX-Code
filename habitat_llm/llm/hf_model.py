@@ -253,5 +253,5 @@ class HFModel(VLMHFModel):
             torch_dtype=torch.float16,
         )
         self.tokenizer = AutoTokenizer.from_pretrained(
-            self.generation_params.engine, use_fast=False
+            self.generation_params.engine, use_fast=True   # use_fast=False   default
         )

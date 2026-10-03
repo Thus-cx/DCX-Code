@@ -118,3 +118,12 @@ dmypy.json
 
 # ignore rlm logs
 rlm/
+final_raw_videos/
+*.mp4
+*.zip
+*.log
+*.pdf
+test_dataset_fetch_robot/
+test_dataset_fetch_robot_08/
+test_dataset_fetch_robot_15/
+test_dataset_strong/

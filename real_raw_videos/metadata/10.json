@@ -1,0 +1,9 @@
+{
+  "episode_id": "10",
+  "area": "dining_room",
+  "is_held": true,
+  "furniture": "trash_can",
+  "affordance": "disposal",
+  "object": "box",
+  "intent": ["disposal", "box", "trash_can"]
+}

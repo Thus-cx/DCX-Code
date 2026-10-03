@@ -15,7 +15,7 @@ oracle_nav:
     dist_thresh                : 0.2
     turn_thresh                : 0.45
     forward_velocity           : 10.0
-    turn_velocity              : 10.0
+    turn_velocity              : 20.0  # 转身速度
     sim_freq                   : 120 # Hz
     enable_backing_up          : False
     # Disable exploration

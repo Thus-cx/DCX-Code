@@ -18,7 +18,7 @@ from habitat_llm.utils.grammar import (
     SPATIAL_RELATION,
 )
 from habitat_llm.utils.sim import ee_distance_to_object
-from habitat_llm.world_model import Floor, Furniture
+from habitat_llm.world_model import Floor, Furniture, Receptacle
 
 if TYPE_CHECKING:
     from habitat_llm.agent.env import EnvironmentInterface
@@ -245,7 +245,7 @@ class OraclePlaceSkill(SkillPolicy):
 
         # Early exit if the place_receptacle is not furniture or floor
         # Check for floor as well
-        if not isinstance(self.place_entity, Furniture):
+        if not isinstance(self.place_entity, (Furniture, Receptacle)):
             self.failed = True
             self.termination_message = (
                 "Failed to place! Place receptacle is not furniture or floor."
@@ -261,6 +261,21 @@ class OraclePlaceSkill(SkillPolicy):
             ee_dist_to_target = (
                 mn.Vector3(cur_agent_ee_pos)
                 - mn.Vector3(self.place_entity.get_property("translation"))
+            ).length()
+        elif isinstance(self.place_entity, Receptacle):
+            cur_agent = self.env.sim.agents_mgr[self.agent_uid].articulated_agent
+            cur_agent_ee_pos = cur_agent.ee_transform().translation
+            
+            # 1. 获取底层 Habitat 对象
+            # self.place_entity.sim_handle 是全局唯一的 handle
+            hab_rec = self.env.perception.receptacles[self.place_entity.sim_handle]
+            
+            # 2. 计算包围盒中心 (hab_rec.bounds 是 magnum.Range3D)
+            target_pos = hab_rec.bounds.center()
+            
+            ee_dist_to_target = (
+                mn.Vector3(cur_agent_ee_pos)
+                - mn.Vector3(target_pos)
             ).length()
         else:
             # Furniture non-floor object

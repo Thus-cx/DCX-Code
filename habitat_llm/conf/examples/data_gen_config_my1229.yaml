@@ -1,0 +1,134 @@
+# @package _global_
+
+defaults:
+  - /training@             : base_train
+  - /habitat_conf          : oracle_spot_kinematic_multi_agent
+  - /habitat_conf/task     : rearrange_easy_multi_agent
+  - /evaluation: centralized_evaluation_runner_multi_agent
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_0: human
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_1: spot
+  - /habitat/task/actions@habitat.task.actions.agent_0_humanoid_base_velocity: humanoid_base_velocity
+  - /habitat/task/actions@habitat.task.actions.agent_0_humanoidjoint_action: humanoidjoint_action
+  - /world_model@world_model: gt_graph
+  - /trajectory@trajectory : trajectory_logger
+  - /agent/@agents.agent_0.config: oracle_rearrange_object_states_agent
+  - /agent/@agents.agent_1.config: oracle_rearrange_agent
+
+  - /instruct@planner.instruct: few_shot_centralized_full_obs_multiagent
+  - /wandb_conf@                : own
+  - override /hydra/output : output
+  - _self_
+
+world_model:
+  partial_obs: False
+agent_asymmetry: False
+
+device      : cuda
+instruction : ''
+mode: "dataset" # cli / dataset
+env: habitat
+num_runs_per_episode: 1
+num_proc: 1
+dry_run: False
+robot_agent_uid: 0
+human_agent_uid: 1
+
+# TODO: we should get rid of these uid. They are redundant.
+agents:
+  agent_0:
+    uid: 0
+  agent_1:
+    uid: 1
+
+paths:
+  results_dir: ${hydra:runtime.output_dir}/results
+  epi_result_file_path: "${paths.results_dir}/episode_result_log.csv"
+  run_result_file_path: "${paths.results_dir}/run_result_log.csv"
+  end_result_file_path: "${paths.results_dir}/end_result_log.csv"
+
+
+evaluation:
+  do_print: True
+  save_video: False
+  log_data: True
+  save_rgb: False
+  log_detailed_traces: True
+
+habitat:
+  task:
+    pddl_domain_def: fp
+  simulator:
+    agents:
+
+      agent_0:
+        radius: 0.3
+        articulated_agent_type: 'KinematicHumanoid'
+        articulated_agent_urdf: 'data/humanoids/humanoid_data/female_2/female_2.urdf'
+        motion_data_path: "data/humanoids/humanoid_data/female_2/female_2_motion_data_smplx.pkl"
+hydra:
+  job:
+    name: 'habitat_llm'
+    chdir: False
+  run:
+    dir: outputs/${hydra.job.name}/${now:%Y-%m-%d_%H-%M-%S}-${file_stem:${habitat.dataset.data_path}}
+
+# --- LLM 配置 (本地路径) ---
+planner:
+  agents:
+    - "agent_0"
+  llm:
+    llm:
+      _target_    : habitat_llm.llm.Llama
+      _partial_   : True
+
+    # Put your host number here if you are using RLM
+    host          : ""
+    port          : 4449
+    name          : "llama"
+
+    # The default of inference mode of llama2 is hf (hugging face)
+    # You can choose between "hf" and "rlm" (remote language model)
+    inference_mode          : hf
+
+    generation_params:
+      # The llama2 model of hf to use:
+      # meta-llama/Llama-2-7b-hf
+      # meta-llama/Llama-2-13b-hf
+      # meta-llama/Llama-2-70b-hf
+      # Note that do NOT use chat version of model since
+      # the chat text will inject the conversation to
+      # to the text, which degrades the quality
+
+      # When on AWS use following checkpoint
+      engine          : "/root/autodl-tmp/LLM-Research/Meta-Llama-3-8B-Instruct"
+
+
+      # The prompt to start the generation from.
+      prompt        : ''
+
+      # The maximum number of tokens to generate in the completion.
+      max_tokens    : 4096
+
+      # float , optional, defaults to 1.0) — The value used to modulate the next token probabilities.
+      temperature   : 0.6
+      # Returns the best `n` out of `best_of` completions made on server side
+      n             : 1
+      best_of       : 1
+
+      # up to 4 sequences that stop the generation
+      stop          : '\n'
+
+      # Return a list of response or not
+      batch_response: False
+
+      # If we want to do sample method of text generation or not
+      do_sample     : True
+
+      # The parameter for repetition penalty. Between 1.0 and infinity. 1.0 means no penalty. Default to 1.0.
+      repetition_penalty : 1.0
+
+      # The number of highest probability vocabulary tokens to keep for top-k-filtering. Between 1 and infinity. Default to 50.
+      top_k         : 50
+
+      # If set to float < 1, only the most probable tokens with probabilities that add up to top_p or higher are kept for generation. Default to 1.0
+      top_p         : 1

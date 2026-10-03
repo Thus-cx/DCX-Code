@@ -1,6 +1,6 @@
 defaults:
   - /llm@plan_config.llm: llama
-  - /instruct@plan_config.instruct: few_shot_centralized_full_obs_multiagent
+  - /instruct@plan_config.instruct: my_few_shot_centralized
 
 _target_: 'habitat_llm.planner.CentralizedLLMPlanner'
 _recursive_: False

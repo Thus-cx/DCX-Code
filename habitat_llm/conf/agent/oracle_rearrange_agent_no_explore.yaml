@@ -7,6 +7,12 @@ defaults:
     - oracle_open
     - oracle_close
     - oracle_rearrange
+    - oracle_clean
+    - oracle_clean_in_place
+    - oracle_fill_in_place
+    - oracle_fill
+    - oracle_power_on
+    - oracle_power_off
     - wait
   - /tools/perception@tools.perception:
     - find_receptacle_tool

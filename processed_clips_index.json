@@ -1,0 +1,676 @@
+[
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task0_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task0_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task0_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task0_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task0_approach.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.1771653078117599,
+      "view_loss_ratio": 0.2723404255319149,
+      "max_ang_vel": 0.8333322791080099,
+      "avg_lin_vel": 0.2752493709979641
+    },
+    "gt_task": "Clean kettle_2 in the water source",
+    "duration": 23.5,
+    "split_step": 415,
+    "start_step": 180,
+    "end_step": 415
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task0_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task0_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task0_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task0_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task0_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.2065084967363082,
+      "view_loss_ratio": 0.7318181818181818,
+      "max_ang_vel": 0.8333362478773018,
+      "avg_lin_vel": 0.24222203493676409
+    },
+    "gt_task": "Clean kettle_2 in the water source",
+    "duration": 22.0,
+    "start_step": 415,
+    "end_step": 635
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task1_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task1_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task1_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task1_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task1_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.2181213917070286,
+      "view_loss_ratio": 0.7110091743119266,
+      "max_ang_vel": 0.8333343640563656,
+      "avg_lin_vel": 0.29446329284190914
+    },
+    "gt_task": "Rearrange kettle_2 to table_24",
+    "duration": 21.8,
+    "start_step": 643,
+    "end_step": 861
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task2_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task2_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task2_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task2_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task2_approach.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.333171602969094,
+      "view_loss_ratio": 0.84,
+      "max_ang_vel": 0.8333345460355527,
+      "avg_lin_vel": 0.20532212413557438
+    },
+    "gt_task": "Clean kettle_3 in the water source",
+    "duration": 15.0,
+    "split_step": 1012,
+    "start_step": 862,
+    "end_step": 1012
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task2_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task2_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task2_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task2_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task2_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.3444479087079282,
+      "view_loss_ratio": 1.0,
+      "max_ang_vel": 0.8333358459025371,
+      "avg_lin_vel": 0.24050921226237626
+    },
+    "gt_task": "Clean kettle_3 in the water source",
+    "duration": 17.3,
+    "start_step": 1012,
+    "end_step": 1185
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task3_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task3_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task3_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task3_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task3_approach.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.5757421408218475,
+      "view_loss_ratio": 1.0,
+      "max_ang_vel": 0.1129637235967564,
+      "avg_lin_vel": 0.11017539843894883
+    },
+    "gt_task": "Rearrange kettle_3 to table_24",
+    "duration": 3.5,
+    "split_step": 1222,
+    "start_step": 1187,
+    "end_step": 1222
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task3_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task3_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task3_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task3_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task3_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.340629145185107,
+      "view_loss_ratio": 0.7509433962264151,
+      "max_ang_vel": 0.8333340025720853,
+      "avg_lin_vel": 0.27943651356956123
+    },
+    "gt_task": "Rearrange kettle_3 to table_24",
+    "duration": 26.5,
+    "start_step": 1222,
+    "end_step": 1487
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task4_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task4_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task4_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task4_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task4_approach.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.3280435253282326,
+      "view_loss_ratio": 0.6133333333333333,
+      "max_ang_vel": 0.4248415888011898,
+      "avg_lin_vel": 0.2674930351055907
+    },
+    "gt_task": "Clean pan_0 in the water source",
+    "duration": 15.0,
+    "split_step": 1638,
+    "start_step": 1488,
+    "end_step": 1638
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task4_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task4_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task4_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task4_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task4_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.3262015651638535,
+      "view_loss_ratio": 1.0,
+      "max_ang_vel": 0.8333366670856567,
+      "avg_lin_vel": 0.181834657287281
+    },
+    "gt_task": "Clean pan_0 in the water source",
+    "duration": 16.2,
+    "start_step": 1638,
+    "end_step": 1800
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task5_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task5_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task5_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task5_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task5_approach.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.7037508580592642,
+      "view_loss_ratio": 1.0,
+      "max_ang_vel": 0.8333347232320634,
+      "avg_lin_vel": 0.13075881651453972
+    },
+    "gt_task": "Rearrange pan_0 to table_24",
+    "duration": 4.5,
+    "split_step": 1847,
+    "start_step": 1802,
+    "end_step": 1847
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task5_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task5_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task5_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task5_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task5_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.2740112019541212,
+      "view_loss_ratio": 0.7381974248927039,
+      "max_ang_vel": 0.8333362844937763,
+      "avg_lin_vel": 0.2811924799296771
+    },
+    "gt_task": "Rearrange pan_0 to table_24",
+    "duration": 23.3,
+    "start_step": 1847,
+    "end_step": 2080
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task6_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task6_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task6_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task6_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task6_approach.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.32201429357819,
+      "view_loss_ratio": 0.6666666666666666,
+      "max_ang_vel": 0.8333347333505597,
+      "avg_lin_vel": 0.2062819319239422
+    },
+    "gt_task": "Clean pan_1 in the water source",
+    "duration": 15.9,
+    "split_step": 2240,
+    "start_step": 2081,
+    "end_step": 2240
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task6_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task6_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task6_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task6_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task6_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.2033254633861024,
+      "view_loss_ratio": 0.36942675159235666,
+      "max_ang_vel": 0.8333344367425433,
+      "avg_lin_vel": 0.2916820020033887
+    },
+    "gt_task": "Clean pan_1 in the water source",
+    "duration": 15.7,
+    "start_step": 2240,
+    "end_step": 2397
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/353_task7_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/353_task7_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/353_task7_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/353_task7_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/353_task7_interaction.mp4",
+    "episode_id": "353",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.646960691595743,
+      "view_loss_ratio": 0.6086956521739131,
+      "max_ang_vel": 0.8333357303993839,
+      "avg_lin_vel": 0.2780636237825913
+    },
+    "gt_task": "Rearrange pan_1 to table_24",
+    "duration": 25.3,
+    "start_step": 2402,
+    "end_step": 2655
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/357_task0_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/357_task0_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/357_task0_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/357_task0_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/357_task0_approach.mp4",
+    "episode_id": "357",
+    "scene_id": "102344529",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.3396028046722375,
+      "view_loss_ratio": 0.75,
+      "max_ang_vel": 0.8333381911663723,
+      "avg_lin_vel": 0.2103930203403455
+    },
+    "gt_task": "Rearrange kettle_0 to floor_kitchen_1",
+    "duration": 6.4,
+    "split_step": 357,
+    "start_step": 293,
+    "end_step": 357
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/357_task0_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/357_task0_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/357_task0_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/357_task0_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/357_task0_interaction.mp4",
+    "episode_id": "357",
+    "scene_id": "102344529",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.5754320550242251,
+      "view_loss_ratio": 0.4520547945205479,
+      "max_ang_vel": 0.8333355994198289,
+      "avg_lin_vel": 0.3146549572175875
+    },
+    "gt_task": "Rearrange kettle_0 to floor_kitchen_1",
+    "duration": 14.6,
+    "start_step": 357,
+    "end_step": 503
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/357_task1_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/357_task1_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/357_task1_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/357_task1_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/357_task1_approach.mp4",
+    "episode_id": "357",
+    "scene_id": "102344529",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.0312315154894305,
+      "view_loss_ratio": 0.6143790849673203,
+      "max_ang_vel": 0.3875959353142384,
+      "avg_lin_vel": 0.4029039698916996
+    },
+    "gt_task": "Rearrange jug_1 to floor_kitchen_1",
+    "duration": 15.3,
+    "split_step": 657,
+    "start_step": 504,
+    "end_step": 657
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/357_task1_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/357_task1_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/357_task1_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/357_task1_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/357_task1_interaction.mp4",
+    "episode_id": "357",
+    "scene_id": "102344529",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.7288948713944234,
+      "view_loss_ratio": 0.4155844155844156,
+      "max_ang_vel": 0.26338356640801275,
+      "avg_lin_vel": 0.3700901289755581
+    },
+    "gt_task": "Rearrange jug_1 to floor_kitchen_1",
+    "duration": 15.4,
+    "start_step": 657,
+    "end_step": 811
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/354_task0_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/354_task0_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/354_task0_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/354_task0_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/354_task0_approach.mp4",
+    "episode_id": "354",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.4644693868868033,
+      "view_loss_ratio": 0.6847826086956522,
+      "max_ang_vel": 0.8333401587134264,
+      "avg_lin_vel": 0.3627711511095419
+    },
+    "gt_task": "Rearrange cushion_1 to table_14",
+    "duration": 9.2,
+    "split_step": 211,
+    "start_step": 119,
+    "end_step": 211
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/354_task0_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/354_task0_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/354_task0_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/354_task0_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/354_task0_interaction.mp4",
+    "episode_id": "354",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.2711591122970454,
+      "view_loss_ratio": 0.40239043824701193,
+      "max_ang_vel": 0.7487815746637936,
+      "avg_lin_vel": 0.2814254324771955
+    },
+    "gt_task": "Rearrange cushion_1 to table_14",
+    "duration": 25.1,
+    "start_step": 211,
+    "end_step": 462
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/354_task1_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/354_task1_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/354_task1_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/354_task1_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/354_task1_interaction.mp4",
+    "episode_id": "354",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.4499032705120276,
+      "view_loss_ratio": 0.8,
+      "max_ang_vel": 0.2109701100441657,
+      "avg_lin_vel": 0.04608036966086605
+    },
+    "gt_task": "Rearrange candle_0 to table_14",
+    "duration": 4.0,
+    "start_step": 532,
+    "end_step": 572
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/354_task2_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/354_task2_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/354_task2_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/354_task2_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/354_task2_approach.mp4",
+    "episode_id": "354",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.5091070858247462,
+      "view_loss_ratio": 0.0,
+      "max_ang_vel": 0.23025040850617592,
+      "avg_lin_vel": 0.08157602586348324
+    },
+    "gt_task": "Rearrange candle_0 to table_19",
+    "duration": 6.4,
+    "split_step": 637,
+    "start_step": 573,
+    "end_step": 637
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/354_task2_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/354_task2_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/354_task2_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/354_task2_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/354_task2_interaction.mp4",
+    "episode_id": "354",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.6289056584559962,
+      "view_loss_ratio": 0.16176470588235295,
+      "max_ang_vel": 0.25141021167687877,
+      "avg_lin_vel": 0.24072866647789606
+    },
+    "gt_task": "Rearrange candle_0 to table_19",
+    "duration": 6.8,
+    "start_step": 637,
+    "end_step": 705
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/356_task0_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/356_task0_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/356_task0_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/356_task0_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/356_task0_interaction.mp4",
+    "episode_id": "356",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.2411787214881806,
+      "view_loss_ratio": 0.2764227642276423,
+      "max_ang_vel": 0.8333447811821757,
+      "avg_lin_vel": 0.2568661772191401
+    },
+    "gt_task": "Rearrange phone_stand_0 to wardrobe_37",
+    "duration": 36.9,
+    "start_step": 172,
+    "end_step": 541
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/356_task1_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/356_task1_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/356_task1_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/356_task1_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/356_task1_approach.mp4",
+    "episode_id": "356",
+    "scene_id": "103997895_171031182",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.6048286978449453,
+      "view_loss_ratio": 0.5,
+      "max_ang_vel": 0.8333364129701829,
+      "avg_lin_vel": 0.29907011271040723
+    },
+    "gt_task": "Rearrange battery_charger_1 to wardrobe_37",
+    "duration": 35.2,
+    "split_step": 894,
+    "start_step": 542,
+    "end_step": 894
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/356_task1_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/356_task1_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/356_task1_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/356_task1_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/356_task1_interaction.mp4",
+    "episode_id": "356",
+    "scene_id": "103997895_171031182",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.3551628385608996,
+      "view_loss_ratio": 0.27956989247311825,
+      "max_ang_vel": 0.8333357713951588,
+      "avg_lin_vel": 0.25993796972343525
+    },
+    "gt_task": "Rearrange battery_charger_1 to wardrobe_37",
+    "duration": 37.2,
+    "start_step": 894,
+    "end_step": 1266
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/3_task0_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/3_task0_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/3_task0_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/3_task0_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/3_task0_interaction.mp4",
+    "episode_id": "3",
+    "scene_id": "102817140",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.4255647681580528,
+      "view_loss_ratio": 0.6779661016949152,
+      "max_ang_vel": 0.8333367797509807,
+      "avg_lin_vel": 0.5128862559583554
+    },
+    "gt_task": "Rearrange plant_saucer_0 to table_22",
+    "duration": 29.5,
+    "start_step": 191,
+    "end_step": 486
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/3_task1_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/3_task1_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/3_task1_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/3_task1_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/3_task1_approach.mp4",
+    "episode_id": "3",
+    "scene_id": "102817140",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.9019743302794292,
+      "view_loss_ratio": 0.7728285077951003,
+      "max_ang_vel": 0.8333408068801643,
+      "avg_lin_vel": 0.4309380333286912
+    },
+    "gt_task": "Rearrange toy_airplane_1 to table_22",
+    "duration": 44.9,
+    "split_step": 936,
+    "start_step": 487,
+    "end_step": 936
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/3_task1_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/3_task1_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/3_task1_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/3_task1_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/3_task1_interaction.mp4",
+    "episode_id": "3",
+    "scene_id": "102817140",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.7623349063601952,
+      "view_loss_ratio": 0.645,
+      "max_ang_vel": 0.5927690541989008,
+      "avg_lin_vel": 0.493311019813989
+    },
+    "gt_task": "Rearrange toy_airplane_1 to table_22",
+    "duration": 40.0,
+    "start_step": 936,
+    "end_step": 1336
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/3_task2_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/3_task2_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/3_task2_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/3_task2_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/3_task2_approach.mp4",
+    "episode_id": "3",
+    "scene_id": "102817140",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.9868881770433235,
+      "view_loss_ratio": 0.7528868360277137,
+      "max_ang_vel": 0.8333401660455936,
+      "avg_lin_vel": 0.43511912997828894
+    },
+    "gt_task": "Rearrange phone_stand_2 to table_22",
+    "duration": 43.3,
+    "split_step": 1770,
+    "start_step": 1337,
+    "end_step": 1770
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/3_task2_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/3_task2_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/3_task2_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/3_task2_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/3_task2_interaction.mp4",
+    "episode_id": "3",
+    "scene_id": "102817140",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.7776618961332578,
+      "view_loss_ratio": 0.6651884700665188,
+      "max_ang_vel": 0.566012043141698,
+      "avg_lin_vel": 0.4365071243527071
+    },
+    "gt_task": "Rearrange phone_stand_2 to table_22",
+    "duration": 45.1,
+    "start_step": 1770,
+    "end_step": 2221
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/3_task3_approach.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/3_task3_approach.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/3_task3_approach.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/3_task3_approach.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/3_task3_approach.mp4",
+    "episode_id": "3",
+    "scene_id": "102817140",
+    "phase": "approach",
+    "metrics": {
+      "avg_dist": 1.938364189549702,
+      "view_loss_ratio": 0.7362637362637363,
+      "max_ang_vel": 0.8333434684903506,
+      "avg_lin_vel": 0.4240330897013328
+    },
+    "gt_task": "Rearrange kettle_3 to table_22",
+    "duration": 45.5,
+    "split_step": 2677,
+    "start_step": 2222,
+    "end_step": 2677
+  },
+  {
+    "ego_raw_video_path": "test_my_videos/final_benchmark_clips/ego_raw/3_task3_interaction.mp4",
+    "ego_ann_video_path": "test_my_videos/final_benchmark_clips/ego_ann/3_task3_interaction.mp4",
+    "third_raw_video_path": "test_my_videos/final_benchmark_clips/third_raw/3_task3_interaction.mp4",
+    "third_ann_video_path": "test_my_videos/final_benchmark_clips/third_ann/3_task3_interaction.mp4",
+    "global_video_path": "test_my_videos/final_benchmark_clips/global/3_task3_interaction.mp4",
+    "episode_id": "3",
+    "scene_id": "102817140",
+    "phase": "interaction",
+    "metrics": {
+      "avg_dist": 1.7256751480571344,
+      "view_loss_ratio": 0.713216957605985,
+      "max_ang_vel": 0.6402665728571396,
+      "avg_lin_vel": 0.49708126284860576
+    },
+    "gt_task": "Rearrange kettle_3 to table_22",
+    "duration": 40.1,
+    "start_step": 2677,
+    "end_step": 3078
+  }
+]

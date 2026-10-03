@@ -1,0 +1,9 @@
+{
+  "episode_id": "5",
+  "area": "dining_room",
+  "is_held": true,
+  "furniture": "refrigerator",
+  "affordance": "storage",
+  "object": "bottle",
+  "intent": ["storage", "bottle", "refrigerator"]
+}

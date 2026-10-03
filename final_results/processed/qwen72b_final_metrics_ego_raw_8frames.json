@@ -1,0 +1,198 @@
+{
+    "transit_30": {
+        "total": 554,
+        "metrics_count": {
+            "acc_area": 86,
+            "acc_status": 228,
+            "acc_obj": 36,
+            "acc_furn_func": 145,
+            "acc_aff": 211,
+            "acc_macro_intent": 40,
+            "sca_reasoning": 161,
+            "sca_full": 21
+        },
+        "conditional": {
+            "denom_perceived": 6,
+            "num_intent": 4
+        },
+        "metrics_percentage": {
+            "acc_area": 15.52,
+            "acc_status": 41.16,
+            "acc_obj": 6.5,
+            "acc_furn_func": 26.17,
+            "acc_aff": 38.09,
+            "acc_macro_intent": 7.22,
+            "sca_reasoning": 29.06,
+            "sca_full": 3.79,
+            "cond_intent": 66.67
+        }
+    },
+    "transit_60": {
+        "total": 554,
+        "metrics_count": {
+            "acc_area": 97,
+            "acc_status": 253,
+            "acc_obj": 38,
+            "acc_furn_func": 131,
+            "acc_aff": 212,
+            "acc_macro_intent": 49,
+            "sca_reasoning": 153,
+            "sca_full": 19
+        },
+        "conditional": {
+            "denom_perceived": 6,
+            "num_intent": 3
+        },
+        "metrics_percentage": {
+            "acc_area": 17.51,
+            "acc_status": 45.67,
+            "acc_obj": 6.86,
+            "acc_furn_func": 23.65,
+            "acc_aff": 38.27,
+            "acc_macro_intent": 8.84,
+            "sca_reasoning": 27.62,
+            "sca_full": 3.43,
+            "cond_intent": 50.0
+        }
+    },
+    "transit_90": {
+        "total": 554,
+        "metrics_count": {
+            "acc_area": 143,
+            "acc_status": 246,
+            "acc_obj": 31,
+            "acc_furn_func": 120,
+            "acc_aff": 199,
+            "acc_macro_intent": 69,
+            "sca_reasoning": 141,
+            "sca_full": 17
+        },
+        "conditional": {
+            "denom_perceived": 8,
+            "num_intent": 7
+        },
+        "metrics_percentage": {
+            "acc_area": 25.81,
+            "acc_status": 44.4,
+            "acc_obj": 5.6,
+            "acc_furn_func": 21.66,
+            "acc_aff": 35.92,
+            "acc_macro_intent": 12.45,
+            "sca_reasoning": 25.45,
+            "sca_full": 3.07,
+            "cond_intent": 87.5
+        }
+    },
+    "pre_transit": {
+        "total": 554,
+        "metrics_count": {
+            "acc_area": 92,
+            "acc_status": 156,
+            "acc_obj": 19,
+            "acc_furn_func": 132,
+            "acc_aff": 205,
+            "acc_macro_intent": 42,
+            "sca_reasoning": 150,
+            "sca_full": 7
+        },
+        "conditional": {
+            "denom_perceived": 5,
+            "num_intent": 4
+        },
+        "metrics_percentage": {
+            "acc_area": 16.61,
+            "acc_status": 28.16,
+            "acc_obj": 3.43,
+            "acc_furn_func": 23.83,
+            "acc_aff": 37.0,
+            "acc_macro_intent": 7.58,
+            "sca_reasoning": 27.08,
+            "sca_full": 1.26,
+            "cond_intent": 80.0
+        }
+    },
+    "transit_30_60": {
+        "total": 554,
+        "metrics_count": {
+            "acc_area": 101,
+            "acc_status": 254,
+            "acc_obj": 34,
+            "acc_furn_func": 121,
+            "acc_aff": 192,
+            "acc_macro_intent": 56,
+            "sca_reasoning": 150,
+            "sca_full": 13
+        },
+        "conditional": {
+            "denom_perceived": 5,
+            "num_intent": 3
+        },
+        "metrics_percentage": {
+            "acc_area": 18.23,
+            "acc_status": 45.85,
+            "acc_obj": 6.14,
+            "acc_furn_func": 21.84,
+            "acc_aff": 34.66,
+            "acc_macro_intent": 10.11,
+            "sca_reasoning": 27.08,
+            "sca_full": 2.35,
+            "cond_intent": 60.0
+        }
+    },
+    "transit_60_90": {
+        "total": 554,
+        "metrics_count": {
+            "acc_area": 192,
+            "acc_status": 238,
+            "acc_obj": 22,
+            "acc_furn_func": 108,
+            "acc_aff": 184,
+            "acc_macro_intent": 87,
+            "sca_reasoning": 138,
+            "sca_full": 11
+        },
+        "conditional": {
+            "denom_perceived": 8,
+            "num_intent": 6
+        },
+        "metrics_percentage": {
+            "acc_area": 34.66,
+            "acc_status": 42.96,
+            "acc_obj": 3.97,
+            "acc_furn_func": 19.49,
+            "acc_aff": 33.21,
+            "acc_macro_intent": 15.7,
+            "sca_reasoning": 24.91,
+            "sca_full": 1.99,
+            "cond_intent": 75.0
+        }
+    },
+    "post_transit": {
+        "total": 554,
+        "metrics_count": {
+            "acc_area": 307,
+            "acc_status": 171,
+            "acc_obj": 21,
+            "acc_furn_func": 196,
+            "acc_aff": 274,
+            "acc_macro_intent": 185,
+            "sca_reasoning": 244,
+            "sca_full": 14
+        },
+        "conditional": {
+            "denom_perceived": 11,
+            "num_intent": 8
+        },
+        "metrics_percentage": {
+            "acc_area": 55.42,
+            "acc_status": 30.87,
+            "acc_obj": 3.79,
+            "acc_furn_func": 35.38,
+            "acc_aff": 49.46,
+            "acc_macro_intent": 33.39,
+            "sca_reasoning": 44.04,
+            "sca_full": 2.53,
+            "cond_intent": 72.73
+        }
+    }
+}

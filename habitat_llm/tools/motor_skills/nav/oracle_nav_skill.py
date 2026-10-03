@@ -270,9 +270,10 @@ class OracleNavSkill(SkillPolicy):
                 furniture_parent_handle = furniture_parent_obj.handle
 
         elif isinstance(entity, Receptacle):
-            hab_rec = self.env.perception.receptacles[
-                get_receptacle_index(entity.sim_handle, self.env.perception.receptacles)
-            ]
+            # hab_rec = self.env.perception.receptacles[
+            #     get_receptacle_index(entity.sim_handle, self.env.perception.receptacles)
+            # ]
+            hab_rec = self.env.perception.receptacles[entity.sim_handle]
 
             # set target position to the Receptacle's aabb center
             self.target_pos = hab_rec.get_global_transform(
@@ -490,6 +491,7 @@ class OracleNavSkill(SkillPolicy):
         base_T = self.articulated_agent.base_transformation
         # Find the paths
         curr_path_points = self._path_to_point(self.target_base_pos)
+              
         # Get the robot position
         robot_pos = np.array(self.articulated_agent.base_pos)
 

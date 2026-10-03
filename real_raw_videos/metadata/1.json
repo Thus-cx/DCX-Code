@@ -1,0 +1,9 @@
+{
+  "episode_id": "1",
+  "area": "bedroom",
+  "is_held": true,
+  "furniture": "bed",
+  "affordance": "placement",
+  "object": "pillow",
+  "intent": ["placement", "pillow", "bed"]
+}

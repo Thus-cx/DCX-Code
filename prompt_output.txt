@@ -1,0 +1,30 @@
+
+# Context
+You are an expert in understanding human-robot collaboration tasks.
+The robot is observing a human performing a household task. Based on the observation, infer the human's current intent.
+
+# Task Information
+- Instruction: "Place the candle and candle holder on the white table in the living room. Move the plant to the same table."
+- Successful State Criteria: 
+(Derived from Instruction) Place the candle and candle holder on the white table in the living room. Move the plant to the same table.
+
+# Observation Data
+- Observed Human Action Sequence: ["FindObjectTool", "FindReceptacleTool", "OracleNavSkill_to_9dfbc1df2349093e0444dfabb8789296c83561cf_:0000", "OraclePickSkill_to_9dfbc1df2349093e0444dfabb8789296c83561cf_:0000", "OracleNavSkill_to_925f48efff312862677c9517a8ec0faba4909570_part_1_:0000", "OraclePlaceSkill", "OracleNavSkill", "OracleNavSkill_to_B075HR7LD2_:0000", "OraclePickSkill_to_B075HR7LD2_:0000", "OracleNavSkill_to_925f48efff312862677c9517a8ec0faba4909570_part_1_:0000", "OraclePlaceSkill", "OracleNavSkill", "FindObjectTool", "FindReceptacleTool", "OracleNavSkill_to_Ecoforms_Plant_Pot_GP9AAvocado_:0000", "OraclePickSkill_to_Ecoforms_Plant_Pot_GP9AAvocado_:0000", "OracleNavSkill_to_925f48efff312862677c9517a8ec0faba4909570_part_1_:0000", "OraclePlaceSkill", "OracleNavSkill"]
+- Current Object States:
+candle_0: is on/in table_32
+candle_holder_1: is on/in table_32
+plant_container_2: is on/in table_32
+box_3: is on/in washer_dryer_12
+jug_4: is on/in chair_27
+box_5: is on/in table_46
+clock_6: is on/in chair_17
+vase_7: is on/in table_13
+
+# Reasoning Task
+Analyze the gap between the "Current Object States" and the "Successful State Criteria". Combine this with the "Observed Human Action Sequence" to infer the specific sub-task the human is currently performing.
+
+# Output Format (Chain of Thought)
+Generate a response in the following format:
+1. Observation Analysis: [Summarize actions and states]
+2. Goal Gap Analysis: [Compare current vs success criteria]
+3. Intent Inference: [Conclude the specific sub-task]

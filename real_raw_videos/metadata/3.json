@@ -1,0 +1,9 @@
+{
+  "episode_id": "3",
+  "area": "laundry_room",
+  "is_held": true,
+  "furniture": "washing_machine",
+  "affordance": "placement",
+  "object": "clothes",
+  "intent": ["placement", "clothes", "washing_machine"]
+}

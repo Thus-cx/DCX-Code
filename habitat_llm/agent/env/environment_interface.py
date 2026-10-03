@@ -673,6 +673,9 @@ class EnvironmentInterface:
         final_action_vector = self.get_final_action_vector(low_level_actions)
 
         # PHYSICS!!!
+        # print("-------DEBUG 1---------")
+        # print(f"final_action_vector: {final_action_vector}")
+        # print(f"type of final_action_vector: {type(final_action_vector)}")
         obs, reward, done, info = self.env.step(final_action_vector)
 
         # Update world graphs

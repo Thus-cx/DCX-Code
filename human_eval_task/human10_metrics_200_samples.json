@@ -1,0 +1,240 @@
+{
+    "slice_metrics": {
+        "transit_60": {
+            "total": 27,
+            "metrics_count": {
+                "acc_area": 26,
+                "acc_status": 27,
+                "acc_obj": 25,
+                "acc_furn_func": 26,
+                "acc_aff": 26,
+                "acc_macro_intent": 25,
+                "sca_reasoning": 25,
+                "sca_full": 25
+            },
+            "conditional": {
+                "denom_perceived": 25,
+                "num_intent": 25
+            },
+            "metrics_percentage": {
+                "acc_area": 96.3,
+                "acc_status": 100.0,
+                "acc_obj": 92.59,
+                "acc_furn_func": 96.3,
+                "acc_aff": 96.3,
+                "acc_macro_intent": 92.59,
+                "sca_reasoning": 92.59,
+                "sca_full": 92.59,
+                "cond_intent": 100.0
+            }
+        },
+        "transit_30_60": {
+            "total": 31,
+            "metrics_count": {
+                "acc_area": 29,
+                "acc_status": 31,
+                "acc_obj": 28,
+                "acc_furn_func": 29,
+                "acc_aff": 25,
+                "acc_macro_intent": 23,
+                "sca_reasoning": 23,
+                "sca_full": 23
+            },
+            "conditional": {
+                "denom_perceived": 26,
+                "num_intent": 23
+            },
+            "metrics_percentage": {
+                "acc_area": 93.55,
+                "acc_status": 100.0,
+                "acc_obj": 90.32,
+                "acc_furn_func": 93.55,
+                "acc_aff": 80.65,
+                "acc_macro_intent": 74.19,
+                "sca_reasoning": 74.19,
+                "sca_full": 74.19,
+                "cond_intent": 88.46
+            }
+        },
+        "post_transit": {
+            "total": 32,
+            "metrics_count": {
+                "acc_area": 32,
+                "acc_status": 32,
+                "acc_obj": 32,
+                "acc_furn_func": 32,
+                "acc_aff": 32,
+                "acc_macro_intent": 32,
+                "sca_reasoning": 32,
+                "sca_full": 32
+            },
+            "conditional": {
+                "denom_perceived": 32,
+                "num_intent": 32
+            },
+            "metrics_percentage": {
+                "acc_area": 100.0,
+                "acc_status": 100.0,
+                "acc_obj": 100.0,
+                "acc_furn_func": 100.0,
+                "acc_aff": 100.0,
+                "acc_macro_intent": 100.0,
+                "sca_reasoning": 100.0,
+                "sca_full": 100.0,
+                "cond_intent": 100.0
+            }
+        },
+        "transit_90": {
+            "total": 23,
+            "metrics_count": {
+                "acc_area": 22,
+                "acc_status": 23,
+                "acc_obj": 22,
+                "acc_furn_func": 22,
+                "acc_aff": 23,
+                "acc_macro_intent": 22,
+                "sca_reasoning": 22,
+                "sca_full": 22
+            },
+            "conditional": {
+                "denom_perceived": 22,
+                "num_intent": 22
+            },
+            "metrics_percentage": {
+                "acc_area": 95.65,
+                "acc_status": 100.0,
+                "acc_obj": 95.65,
+                "acc_furn_func": 95.65,
+                "acc_aff": 100.0,
+                "acc_macro_intent": 95.65,
+                "sca_reasoning": 95.65,
+                "sca_full": 95.65,
+                "cond_intent": 100.0
+            }
+        },
+        "transit_30": {
+            "total": 30,
+            "metrics_count": {
+                "acc_area": 25,
+                "acc_status": 30,
+                "acc_obj": 27,
+                "acc_furn_func": 25,
+                "acc_aff": 23,
+                "acc_macro_intent": 18,
+                "sca_reasoning": 18,
+                "sca_full": 18
+            },
+            "conditional": {
+                "denom_perceived": 23,
+                "num_intent": 18
+            },
+            "metrics_percentage": {
+                "acc_area": 83.33,
+                "acc_status": 100.0,
+                "acc_obj": 90.0,
+                "acc_furn_func": 83.33,
+                "acc_aff": 76.67,
+                "acc_macro_intent": 60.0,
+                "sca_reasoning": 60.0,
+                "sca_full": 60.0,
+                "cond_intent": 78.26
+            }
+        },
+        "pre_transit": {
+            "total": 28,
+            "metrics_count": {
+                "acc_area": 24,
+                "acc_status": 28,
+                "acc_obj": 23,
+                "acc_furn_func": 24,
+                "acc_aff": 20,
+                "acc_macro_intent": 16,
+                "sca_reasoning": 16,
+                "sca_full": 16
+            },
+            "conditional": {
+                "denom_perceived": 21,
+                "num_intent": 16
+            },
+            "metrics_percentage": {
+                "acc_area": 85.71,
+                "acc_status": 100.0,
+                "acc_obj": 82.14,
+                "acc_furn_func": 85.71,
+                "acc_aff": 71.43,
+                "acc_macro_intent": 57.14,
+                "sca_reasoning": 57.14,
+                "sca_full": 57.14,
+                "cond_intent": 76.19
+            }
+        },
+        "transit_60_90": {
+            "total": 29,
+            "metrics_count": {
+                "acc_area": 27,
+                "acc_status": 29,
+                "acc_obj": 28,
+                "acc_furn_func": 27,
+                "acc_aff": 28,
+                "acc_macro_intent": 26,
+                "sca_reasoning": 26,
+                "sca_full": 26
+            },
+            "conditional": {
+                "denom_perceived": 27,
+                "num_intent": 26
+            },
+            "metrics_percentage": {
+                "acc_area": 93.1,
+                "acc_status": 100.0,
+                "acc_obj": 96.55,
+                "acc_furn_func": 93.1,
+                "acc_aff": 96.55,
+                "acc_macro_intent": 89.66,
+                "sca_reasoning": 89.66,
+                "sca_full": 89.66,
+                "cond_intent": 96.3
+            }
+        }
+    },
+    "intent_metrics_post_transit": {
+        "maintenance": {
+            "total": 3,
+            "correct_intent": 3,
+            "correct_sca_r": 3,
+            "acc_intent_percentage": 100.0,
+            "acc_sca_r_percentage": 100.0
+        },
+        "placement": {
+            "total": 21,
+            "correct_intent": 21,
+            "correct_sca_r": 21,
+            "acc_intent_percentage": 100.0,
+            "acc_sca_r_percentage": 100.0
+        },
+        "storage": {
+            "total": 8,
+            "correct_intent": 8,
+            "correct_sca_r": 8,
+            "acc_intent_percentage": 100.0,
+            "acc_sca_r_percentage": 100.0
+        }
+    },
+    "difficulty_metrics_all": {
+        "Easy": {
+            "total": 52,
+            "correct_sca_r": 46,
+            "acc_sca_r_percentage": 88.46
+        },
+        "Medium": {
+            "total": 100,
+            "correct_sca_r": 82,
+            "acc_sca_r_percentage": 82.0
+        },
+        "Hard": {
+            "total": 48,
+            "correct_sca_r": 34,
+            "acc_sca_r_percentage": 70.83
+        }
+    }
+}

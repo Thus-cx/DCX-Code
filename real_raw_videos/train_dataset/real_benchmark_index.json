@@ -1,0 +1,1142 @@
+[
+  {
+    "episode_id": "3",
+    "area": "laundry_room",
+    "is_held": true,
+    "furniture": "washing_machine",
+    "affordance": "placement",
+    "object": "clothes",
+    "gt_intent": [
+      "placement",
+      "clothes",
+      "washing_machine"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.02,
+    "ego_path": "real_raw_videos/train_dataset/ego/3_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/3_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/3_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "3",
+    "area": "laundry_room",
+    "is_held": true,
+    "furniture": "washing_machine",
+    "affordance": "placement",
+    "object": "clothes",
+    "gt_intent": [
+      "placement",
+      "clothes",
+      "washing_machine"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 4.05,
+    "ego_path": "real_raw_videos/train_dataset/ego/3_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/3_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/3_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "3",
+    "area": "laundry_room",
+    "is_held": true,
+    "furniture": "washing_machine",
+    "affordance": "placement",
+    "object": "clothes",
+    "gt_intent": [
+      "placement",
+      "clothes",
+      "washing_machine"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 6.08,
+    "ego_path": "real_raw_videos/train_dataset/ego/3_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/3_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/3_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "3",
+    "area": "laundry_room",
+    "is_held": true,
+    "furniture": "washing_machine",
+    "affordance": "placement",
+    "object": "clothes",
+    "gt_intent": [
+      "placement",
+      "clothes",
+      "washing_machine"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.02,
+    "ego_path": "real_raw_videos/train_dataset/ego/3_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/3_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/3_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "3",
+    "area": "laundry_room",
+    "is_held": true,
+    "furniture": "washing_machine",
+    "affordance": "placement",
+    "object": "clothes",
+    "gt_intent": [
+      "placement",
+      "clothes",
+      "washing_machine"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.02,
+    "ego_path": "real_raw_videos/train_dataset/ego/3_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/3_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/3_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "3",
+    "area": "laundry_room",
+    "is_held": true,
+    "furniture": "washing_machine",
+    "affordance": "placement",
+    "object": "clothes",
+    "gt_intent": [
+      "placement",
+      "clothes",
+      "washing_machine"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 2.7,
+    "ego_path": "real_raw_videos/train_dataset/ego/3_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/3_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/3_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "1",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.53,
+    "ego_path": "real_raw_videos/train_dataset/ego/1_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/1_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/1_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "1",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 5.05,
+    "ego_path": "real_raw_videos/train_dataset/ego/1_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/1_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/1_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "1",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 7.58,
+    "ego_path": "real_raw_videos/train_dataset/ego/1_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/1_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/1_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "1",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.53,
+    "ego_path": "real_raw_videos/train_dataset/ego/1_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/1_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/1_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "1",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.53,
+    "ego_path": "real_raw_videos/train_dataset/ego/1_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/1_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/1_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "1",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 3.37,
+    "ego_path": "real_raw_videos/train_dataset/ego/1_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/1_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/1_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "2",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "blanket",
+    "gt_intent": [
+      "placement",
+      "blanket",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.9,
+    "ego_path": "real_raw_videos/train_dataset/ego/2_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/2_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/2_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "2",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "blanket",
+    "gt_intent": [
+      "placement",
+      "blanket",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 5.8,
+    "ego_path": "real_raw_videos/train_dataset/ego/2_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/2_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/2_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "2",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "blanket",
+    "gt_intent": [
+      "placement",
+      "blanket",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 8.7,
+    "ego_path": "real_raw_videos/train_dataset/ego/2_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/2_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/2_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "2",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "blanket",
+    "gt_intent": [
+      "placement",
+      "blanket",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.9,
+    "ego_path": "real_raw_videos/train_dataset/ego/2_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/2_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/2_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "2",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "blanket",
+    "gt_intent": [
+      "placement",
+      "blanket",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.9,
+    "ego_path": "real_raw_videos/train_dataset/ego/2_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/2_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/2_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "2",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "blanket",
+    "gt_intent": [
+      "placement",
+      "blanket",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 3.87,
+    "ego_path": "real_raw_videos/train_dataset/ego/2_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/2_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/2_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "4",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "table",
+    "affordance": "placement",
+    "object": "apple",
+    "gt_intent": [
+      "placement",
+      "apple",
+      "table"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.67,
+    "ego_path": "real_raw_videos/train_dataset/ego/4_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/4_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/4_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "4",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "table",
+    "affordance": "placement",
+    "object": "apple",
+    "gt_intent": [
+      "placement",
+      "apple",
+      "table"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 7.35,
+    "ego_path": "real_raw_videos/train_dataset/ego/4_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/4_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/4_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "4",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "table",
+    "affordance": "placement",
+    "object": "apple",
+    "gt_intent": [
+      "placement",
+      "apple",
+      "table"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 11.03,
+    "ego_path": "real_raw_videos/train_dataset/ego/4_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/4_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/4_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "4",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "table",
+    "affordance": "placement",
+    "object": "apple",
+    "gt_intent": [
+      "placement",
+      "apple",
+      "table"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.67,
+    "ego_path": "real_raw_videos/train_dataset/ego/4_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/4_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/4_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "4",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "table",
+    "affordance": "placement",
+    "object": "apple",
+    "gt_intent": [
+      "placement",
+      "apple",
+      "table"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.67,
+    "ego_path": "real_raw_videos/train_dataset/ego/4_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/4_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/4_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "4",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "table",
+    "affordance": "placement",
+    "object": "apple",
+    "gt_intent": [
+      "placement",
+      "apple",
+      "table"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.9,
+    "ego_path": "real_raw_videos/train_dataset/ego/4_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/4_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/4_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "5",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "refrigerator",
+    "affordance": "storage",
+    "object": "bottle",
+    "gt_intent": [
+      "storage",
+      "bottle",
+      "refrigerator"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.07,
+    "ego_path": "real_raw_videos/train_dataset/ego/5_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/5_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/5_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "5",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "refrigerator",
+    "affordance": "storage",
+    "object": "bottle",
+    "gt_intent": [
+      "storage",
+      "bottle",
+      "refrigerator"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 6.15,
+    "ego_path": "real_raw_videos/train_dataset/ego/5_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/5_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/5_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "5",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "refrigerator",
+    "affordance": "storage",
+    "object": "bottle",
+    "gt_intent": [
+      "storage",
+      "bottle",
+      "refrigerator"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 9.22,
+    "ego_path": "real_raw_videos/train_dataset/ego/5_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/5_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/5_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "5",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "refrigerator",
+    "affordance": "storage",
+    "object": "bottle",
+    "gt_intent": [
+      "storage",
+      "bottle",
+      "refrigerator"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.07,
+    "ego_path": "real_raw_videos/train_dataset/ego/5_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/5_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/5_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "5",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "refrigerator",
+    "affordance": "storage",
+    "object": "bottle",
+    "gt_intent": [
+      "storage",
+      "bottle",
+      "refrigerator"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.07,
+    "ego_path": "real_raw_videos/train_dataset/ego/5_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/5_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/5_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "5",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "refrigerator",
+    "affordance": "storage",
+    "object": "bottle",
+    "gt_intent": [
+      "storage",
+      "bottle",
+      "refrigerator"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.1,
+    "ego_path": "real_raw_videos/train_dataset/ego/5_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/5_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/5_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "6",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 2.27,
+    "ego_path": "real_raw_videos/train_dataset/ego/6_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/6_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/6_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "6",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 4.55,
+    "ego_path": "real_raw_videos/train_dataset/ego/6_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/6_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/6_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "6",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 6.82,
+    "ego_path": "real_raw_videos/train_dataset/ego/6_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/6_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/6_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "6",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 2.27,
+    "ego_path": "real_raw_videos/train_dataset/ego/6_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/6_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/6_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "6",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 2.27,
+    "ego_path": "real_raw_videos/train_dataset/ego/6_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/6_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/6_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "6",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "bed",
+    "affordance": "placement",
+    "object": "pillow",
+    "gt_intent": [
+      "placement",
+      "pillow",
+      "bed"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 3.03,
+    "ego_path": "real_raw_videos/train_dataset/ego/6_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/6_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/6_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "8",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "apple",
+    "gt_intent": [
+      "maintenance",
+      "apple",
+      "faucet"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.75,
+    "ego_path": "real_raw_videos/train_dataset/ego/8_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/8_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/8_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "8",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "apple",
+    "gt_intent": [
+      "maintenance",
+      "apple",
+      "faucet"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 7.5,
+    "ego_path": "real_raw_videos/train_dataset/ego/8_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/8_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/8_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "8",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "apple",
+    "gt_intent": [
+      "maintenance",
+      "apple",
+      "faucet"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 11.25,
+    "ego_path": "real_raw_videos/train_dataset/ego/8_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/8_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/8_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "8",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "apple",
+    "gt_intent": [
+      "maintenance",
+      "apple",
+      "faucet"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.75,
+    "ego_path": "real_raw_videos/train_dataset/ego/8_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/8_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/8_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "8",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "apple",
+    "gt_intent": [
+      "maintenance",
+      "apple",
+      "faucet"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.75,
+    "ego_path": "real_raw_videos/train_dataset/ego/8_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/8_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/8_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "8",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "apple",
+    "gt_intent": [
+      "maintenance",
+      "apple",
+      "faucet"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 5.0,
+    "ego_path": "real_raw_videos/train_dataset/ego/8_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/8_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/8_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "7",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "desk",
+    "affordance": "placement",
+    "object": "computer",
+    "gt_intent": [
+      "placement",
+      "computer",
+      "desk"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.19,
+    "ego_path": "real_raw_videos/train_dataset/ego/7_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/7_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/7_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "7",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "desk",
+    "affordance": "placement",
+    "object": "computer",
+    "gt_intent": [
+      "placement",
+      "computer",
+      "desk"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 6.38,
+    "ego_path": "real_raw_videos/train_dataset/ego/7_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/7_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/7_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "7",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "desk",
+    "affordance": "placement",
+    "object": "computer",
+    "gt_intent": [
+      "placement",
+      "computer",
+      "desk"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 9.57,
+    "ego_path": "real_raw_videos/train_dataset/ego/7_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/7_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/7_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "7",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "desk",
+    "affordance": "placement",
+    "object": "computer",
+    "gt_intent": [
+      "placement",
+      "computer",
+      "desk"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.19,
+    "ego_path": "real_raw_videos/train_dataset/ego/7_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/7_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/7_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "7",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "desk",
+    "affordance": "placement",
+    "object": "computer",
+    "gt_intent": [
+      "placement",
+      "computer",
+      "desk"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.19,
+    "ego_path": "real_raw_videos/train_dataset/ego/7_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/7_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/7_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "7",
+    "area": "bedroom",
+    "is_held": true,
+    "furniture": "desk",
+    "affordance": "placement",
+    "object": "computer",
+    "gt_intent": [
+      "placement",
+      "computer",
+      "desk"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.25,
+    "ego_path": "real_raw_videos/train_dataset/ego/7_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/7_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/7_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "9",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "kettle",
+    "gt_intent": [
+      "maintenance",
+      "kettle",
+      "faucet"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 3.55,
+    "ego_path": "real_raw_videos/train_dataset/ego/9_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/9_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/9_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "9",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "kettle",
+    "gt_intent": [
+      "maintenance",
+      "kettle",
+      "faucet"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 7.1,
+    "ego_path": "real_raw_videos/train_dataset/ego/9_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/9_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/9_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "9",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "kettle",
+    "gt_intent": [
+      "maintenance",
+      "kettle",
+      "faucet"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 10.65,
+    "ego_path": "real_raw_videos/train_dataset/ego/9_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/9_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/9_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "9",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "kettle",
+    "gt_intent": [
+      "maintenance",
+      "kettle",
+      "faucet"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 3.55,
+    "ego_path": "real_raw_videos/train_dataset/ego/9_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/9_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/9_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "9",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "kettle",
+    "gt_intent": [
+      "maintenance",
+      "kettle",
+      "faucet"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 3.55,
+    "ego_path": "real_raw_videos/train_dataset/ego/9_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/9_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/9_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "9",
+    "area": "kitchen",
+    "is_held": true,
+    "furniture": "faucet",
+    "affordance": "maintenance",
+    "object": "kettle",
+    "gt_intent": [
+      "maintenance",
+      "kettle",
+      "faucet"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 4.73,
+    "ego_path": "real_raw_videos/train_dataset/ego/9_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/9_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/9_fixed_len_phase_late_global.mp4"
+  },
+  {
+    "episode_id": "10",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "trash_can",
+    "affordance": "disposal",
+    "object": "box",
+    "gt_intent": [
+      "disposal",
+      "box",
+      "trash_can"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_30",
+    "duration": 4.63,
+    "ego_path": "real_raw_videos/train_dataset/ego/10_accumulative_transit_30_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/10_accumulative_transit_30_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/10_accumulative_transit_30_global.mp4"
+  },
+  {
+    "episode_id": "10",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "trash_can",
+    "affordance": "disposal",
+    "object": "box",
+    "gt_intent": [
+      "disposal",
+      "box",
+      "trash_can"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_60",
+    "duration": 9.25,
+    "ego_path": "real_raw_videos/train_dataset/ego/10_accumulative_transit_60_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/10_accumulative_transit_60_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/10_accumulative_transit_60_global.mp4"
+  },
+  {
+    "episode_id": "10",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "trash_can",
+    "affordance": "disposal",
+    "object": "box",
+    "gt_intent": [
+      "disposal",
+      "box",
+      "trash_can"
+    ],
+    "observation_type": "accumulative",
+    "slice_param": "transit_90",
+    "duration": 13.88,
+    "ego_path": "real_raw_videos/train_dataset/ego/10_accumulative_transit_90_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/10_accumulative_transit_90_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/10_accumulative_transit_90_global.mp4"
+  },
+  {
+    "episode_id": "10",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "trash_can",
+    "affordance": "disposal",
+    "object": "box",
+    "gt_intent": [
+      "disposal",
+      "box",
+      "trash_can"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_early",
+    "duration": 4.63,
+    "ego_path": "real_raw_videos/train_dataset/ego/10_fixed_len_phase_early_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/10_fixed_len_phase_early_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/10_fixed_len_phase_early_global.mp4"
+  },
+  {
+    "episode_id": "10",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "trash_can",
+    "affordance": "disposal",
+    "object": "box",
+    "gt_intent": [
+      "disposal",
+      "box",
+      "trash_can"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_mid",
+    "duration": 4.63,
+    "ego_path": "real_raw_videos/train_dataset/ego/10_fixed_len_phase_mid_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/10_fixed_len_phase_mid_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/10_fixed_len_phase_mid_global.mp4"
+  },
+  {
+    "episode_id": "10",
+    "area": "dining_room",
+    "is_held": true,
+    "furniture": "trash_can",
+    "affordance": "disposal",
+    "object": "box",
+    "gt_intent": [
+      "disposal",
+      "box",
+      "trash_can"
+    ],
+    "observation_type": "fixed_len",
+    "slice_param": "phase_late",
+    "duration": 6.17,
+    "ego_path": "real_raw_videos/train_dataset/ego/10_fixed_len_phase_late_ego.mp4",
+    "third_path": "real_raw_videos/train_dataset/third/10_fixed_len_phase_late_third.mp4",
+    "global_path": "real_raw_videos/train_dataset/global/10_fixed_len_phase_late_global.mp4"
+  }
+]

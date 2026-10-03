@@ -9,6 +9,8 @@ defaults:
 
 # --- LLM 配置 (本地路径) ---
 planner:
+  agents:
+    - "agent_0"
   llm:
     llm:
       _target_    : habitat_llm.llm.Llama
@@ -70,10 +72,17 @@ planner:
 # --- 仿真器配置 ---
 habitat:
   dataset:
-    # type: CollaborationDataset-v0
-    data_path: "data/datasets/partnr_episodes/v0_0/val_mini.json.gz"
+    type: CollaborationDataset-v0
+    data_path: "data/datasets/partnr_episodes/v0_0/{split}.json.gz"
     split: "val"
     # scenes_dir: "data/scene_datasets/"
+  # task:
+  #   actions:
+  #     agent_1_base_velocity:
+  #       type: "BaseVelAction"
+  #       lin_speed_limit: 2.0
+  #       ang_speed_limit: 2.0
+  #       allow_dyn_slide: True
   gym:
     obs_keys:
       - agent_0_head_rgb

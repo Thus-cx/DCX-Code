@@ -9,7 +9,7 @@ oracle_fill_in_place:
       _target_                 : "habitat_llm.tools.motor_skills.OracleFillInPlaceSkill"
       _partial_                : True
 
-    name                       : 'Fill'
+    name                       : 'FillInPlace'
     description                : 'Used for filling an object. You need to provide the name of the object to fill.'
     max_skill_steps            : 1000
     force_end_on_timeout       : True

@@ -1,0 +1,9 @@
+{
+  "episode_id": "8",
+  "area": "kitchen",
+  "is_held": true,
+  "furniture": "faucet",
+  "affordance": "maintenance",
+  "object": "apple",
+  "intent": ["maintenance", "apple", "faucet"]
+}

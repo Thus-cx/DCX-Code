@@ -1,0 +1,9 @@
+{
+  "episode_id": "4",
+  "area": "dining_room",
+  "is_held": true,
+  "furniture": "table",
+  "affordance": "placement",
+  "object": "apple",
+  "intent": ["placement", "apple", "table"]
+}

@@ -47,6 +47,7 @@ from habitat_llm.tools.motor_skills.reset_arm.reset_arm_skill import ResetArmSki
 
 # Wait
 from habitat_llm.tools.motor_skills.wait.wait_skill import WaitSkill
+from habitat_llm.tools.motor_skills.wait.wait_a_second_skill import WaitASecondSkill
 
 # Object states
 from habitat_llm.tools.motor_skills.object_states.oracle_power_skills import (

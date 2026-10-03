@@ -530,7 +530,7 @@ class LLMPlanner(Planner):
                 self.trace += result
                 print_str += result
             self.curr_prompt += self.planner_config.llm.eot_tag
-            print(self.curr_prompt)
+            # print(self.curr_prompt) !!!!!
 
         # Force add thought after every observation
         if self.planner_config.planning_mode.lower() == "cot":
@@ -611,6 +611,7 @@ class LLMPlanner(Planner):
 
         if self.curr_prompt == "":
             # Prepare prompts
+            
             self.curr_prompt, self.params = self.prepare_prompt(
                 instruction, world_graph[self._agents[0].uid], observations=observations
             )
@@ -660,6 +661,7 @@ class LLMPlanner(Planner):
             self.is_done = (self.check_if_agent_done(llm_response)) or (
                 self.replanning_count == self.planner_config.replanning_threshold
             )
+            
             # Increment the llm call counter on every replan
             # doesn't get incremented before comparison as first "replan" is technically
             # the first required plan
@@ -698,7 +700,7 @@ class LLMPlanner(Planner):
             low_level_actions, responses = self.process_high_level_actions(
                 high_level_actions, observations
             )
-
+            
             # Store last executed high level action
             self.last_high_level_actions = high_level_actions
         else:
@@ -710,7 +712,7 @@ class LLMPlanner(Planner):
             low_level_actions, responses = self.process_high_level_actions(
                 self.last_high_level_actions, observations
             )
-
+            
         # Log if replanning was done or not before overwriting the value
         planner_info["replan_required"] = {
             agent.uid: self.replan_required for agent in self.agents
