@@ -67,6 +67,9 @@ def build_metadata_ref(
         raise MetadataReferenceError(f"fps must be positive, got {fps!r}")
 
     source_path = os.path.normpath(os.fspath(metadata_file))
+    recording = episode_data.get("recording", {})
+    if not isinstance(recording, Mapping):
+        recording = {}
     first_step = steps[start]
     last_step = steps[end - 1]
     if not isinstance(first_step, Mapping) or not isinstance(last_step, Mapping):
@@ -93,6 +96,9 @@ def build_metadata_ref(
         "boundary_semantics": "half_open_[start_frame,end_frame_exclusive)",
         "fps": float(fps),
         "source_total_frames": total,
+        "source_frame_alignment": recording.get(
+            "frame_metadata_alignment", "not_declared_legacy_recording"
+        ),
         "start_frame": start,
         "end_frame_exclusive": end,
         "frame_count": end - start,
