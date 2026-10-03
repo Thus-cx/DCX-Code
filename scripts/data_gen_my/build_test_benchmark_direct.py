@@ -4,6 +4,11 @@ import random
 import re
 from tqdm import tqdm
 
+try:
+    from .clip_metadata_reference import resolve_metadata_path
+except ImportError:  # Support direct execution from scripts/data_gen_my
+    from clip_metadata_reference import resolve_metadata_path
+
 # ================= 配置区域 =================
 # 输入：上一步生成的索引文件
 INPUT_FILE = "test_dataset/final_benchmark_0302/benchmark_index.json"
@@ -174,7 +179,15 @@ def main():
 
         episode_id = clip["episode_id"]
         subtask = clip['subtask']
-        metadata = os.path.join(metadat_file_path, f"{episode_id}.json")
+        metadata_ref = clip.get("metadata_ref")
+        if metadata_ref:
+            metadata = resolve_metadata_path(
+                metadata_ref,
+                metadata_root=metadat_file_path,
+            )
+        else:
+            # Backward compatibility with benchmark indexes generated before v1.
+            metadata = os.path.join(metadat_file_path, f"{episode_id}.json")
 
         gt_area = "Unknown"  # 默认值，防崩溃
         with open(metadata, 'rt', encoding='utf-8') as f:
@@ -237,6 +250,7 @@ def main():
             "slice_param": clip['slice_param'],
             "difficulty": clip.get('difficulty', 'Unknown'),
             "duration": clip.get('duration', 0.0),
+            "metadata_ref": metadata_ref,
 
             "video_paths": {
                 "ego_raw": clip.get('ego_raw_path'),
